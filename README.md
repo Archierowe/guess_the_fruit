@@ -4,59 +4,64 @@
 
 ## DESCRIPTION
 
-Placeholder text - as I am going to be editing my previous README for continuation 'flow' of thematic style
-- 
-blah blah
 
--   Home: Gives the vision of Arco - an exciting place to come and learn drums.
--   About: Explains the ethos, values and vision of Arco Drum Academy. Also presents some of the founder's previous work, the aim here is showcasing experience and professionalism.
--   What we offer: This page contains all relevant information about what a user can get from Arco - easy and comprehensive presentation with obvious links to what is on offer and how to book lessons.
--   Book a lesson: Easy to navigate page for lesson bookings. Aim is to make it intuitive for the user - all done through submitting info and booking a lesson through calendly. User has opportunity to ask questions. 
--   Masterclasses: Site users can come to Arco Drum Academy and listen to and importantly, learn from world-famous drummers. Easy booking form through calendly form and again, opportunity to ask questions. 
 
 
 ## UX
 
-### Brand and visual identity
+USE THIS IN ACKKNOWLEDGEMENTS section - I have been given permission to use images from the brand for the purposes of this project [Hey Bear Sensory - thanks to Wayne!] (https://www.heybearsensory.com/)
 
-The aim of the visuals was clean, professional and obvious. The Logo created was intended to be instantly recognisable as a Drum tuition school. 
+## Goals of this project
 
-There is much attention to detail throughout. The visual tone is intended to display professionalism and precision - projecting these themes and welcoming everyone to come, experience the same, and be a part of that journey.
-
-The [home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page contains striking visuals of a video of a live show of the founder with stark text conveying the values and aims of Arco Drum Academy. 
-
-Overall, the visual flow of the site is intended to be simple, visually pleasing and intuitive with the home page as the anchor.
+- The primary goal of this 'Guess the Fruit' game is to be a visually exciting, colourful, child friendly game that will be great fun to play. It has crisp, bright visuals and vibrant sound.
+- The target audience is children between 1 and 5 and also the parents.
 
 ### User stories
 
-The site is designed primarily for people who want to learn to play drums - from those who have never picked up sticks before to those who have experience of playing. 
-The hope is that beginners and experienced players all find something they want to experience, to get involved with and it's all under one roof. 
+The game is designed for children aged between 1-5 years old.
 
-#### Potential customers:
+#### Player goals:
 
--   As a potential customer, I want to know what Arco Drum Academy is and who the teaching is aimed at (e.g. if I am a beginner what can they offer, if I am experienced what will I get out of it?)
--   As a potential customer, I want an easy way to see what the Academy offers; from how much lessons are, to booking those lessons and if events happen at the Academy. I also might want to ask questions and be able to contact Arco Drum Academy with enquiries - by phone and email.
--   As a potential customer, I wish to know who the teacher(s) are and what experience they have - why should I study there?
--   As a potential customer, I want to get an idea as to what the facilities look like and the atmosphere of the studios.
+-   I want a fun game to play that is easily to understand.
+-   I want/need/require child friendly controls.
+-   I need the game controls and buttons to obvious and 'clickable' - large and colourful buttons to attract my attention.
+-   I would like fun sounds and images/visuals.
+-   I need to be able to recognise the elements within the game.
+-   I would love visual and audible rewards when I play/win!
 
-These questions are answered in the following ways:
+#### Guess the fruit meets the player's needs because:
 
--   The home page is designed to be alluring, attractive and simple - it explains the goals and vision of the company, who it is for, where we are located - with a simple nav bar.
--   Potential customers can see all that the Academy offers in more than one way: through the "What we offer" button on the [Home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages - where potential customers can input email and ask questions. Information such as contact details for the academy are also located in the footer.
--   The [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page  gives a detailed overview of what Arco Drum Academy is all about from lesson pricing, to info for beginners and those who wish to learn from famous drummers.
--   The [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page is easy to use - with a calendly link for bookings and a form to ask questions should they so wish.
--   The [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page is easy to navigate - the same layout as Book a lesson for user continuity - only exception is a drop-down to select a masterclass which brings another calendly link for bookings.
--   The about page gives a comprehensive and personal look at the founder, his experience and his vision for the academy and for students. Links to previous work gives users the opportunity to 'experience' the professional work of the founder and enhances the credibility of the drum tutor(s)/teacher(s) and academy as a whole.
--   Images throughout the site give potential customers/students the opportunity to see inside the studios, which enhances the offering - if a potential customer can see facilities, then they can become more excited at the prospect of being a part of it all.
+-   The game has visual appeal and was actually inspired by a series of YouTube videos from a company called [Hey Bear Sensory] (https://www.heybearsensory.com/). The videos are designed to capture the attention of young children through colourful images of fruit and veg accompanied by free to use music from Youtube. (I have been given permission to use images from the brand [Hey Bear Sensory - thanks to Wayne!] (https://www.heybearsensory.com/).
+-   The game is fun, colourful and vibrant - most certainly recognisable by a lot of children (I have surveyed a number of friends with children, all of whom have attested to the fact that Hey Bear Sensory is a popular channel - which has millions upon millions of viewers globally). 
+-   The game is obervably obvious with a carousel of fruit which then disappears - the user then has a number of fruits to 'push' on screen. If the user guesses which one is hidden then they win! They have 9 attempts and the best score is recorded.  
+-   The game controls are obvious and in the form of the fruits that appear in the majority of Hey Bear Sensory's videos.
+-   The sounds and images are also from hey Bear Sensory. 
+-   The fruits are among the most common out there! Most certainly what children will have seen (and hopefully eaten) before.
+-   Plenty of visual and audible stimulus in the form of music and vibrant design.
 
 
-### User Experience
+#### Parent goals: What do parent goals look like?
 
-The site was created to be a visually appealing yet easily accessible and intuitive user experience across all devices. The site acts responsively based on screen-size - for example some buttons turn off to decrease the amount of moving between screens - a toggler appears on mobile to provide a visually appealing navbar experience. 
+Parents have a tough job finding aspects of entertainment that are not 'wasteful' for their children. Hundreds and thousands of games are designed to grab the attention of children, this game is designed to partner with Hey Bear Sensory and bring an element of fun to be enjoyed that children have not yet experienced from this channel/brand. They now have the chance to interact with the visual elements that they have, only thus far, enjoyed through the screen. Now, parents can play with their children and bring this, much loved, experience out of the screen and into their laps.
 
-Colour schemes were intended to be muted, with bold white lettering to give a clean appearance. 
+What would parent's like in a game?
 
-Use of the division of thirds was used in the information-based pages (What we offer, Book a lesson and Masterclasses) so that a user is drawn to essential information yet has a visually appealing experience.
+-   Developmental value?
+-   Is the game accesible?
+-   Is the game fun to play?
+-   Is it a loud game? What parental controls are there?
+
+#### Guess the fruit meets the parent's needs because:
+
+
+-   Develpmental value. The game is designed to encourage visual and spatial awareness.
+-   Chidren of varying abilities can enjoy the game.
+-   Visually appealing and recognisable.
+-   Parents can reset the game.
+-   There is a mute button!
+
+
+The site acts responsively based on screen-size.
 
 
 ## WIREFRAME
