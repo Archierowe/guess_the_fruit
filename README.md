@@ -1,100 +1,173 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 1, 2021**
+# Guess the fruit game
 
-## Gitpod Reminders
+## DESCRIPTION
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Placeholder text - as I am going to be editing my previous README for continuation 'flow' of thematic style
+- 
+blah blah
 
-`python3 -m http.server`
+-   Home: Gives the vision of Arco - an exciting place to come and learn drums.
+-   About: Explains the ethos, values and vision of Arco Drum Academy. Also presents some of the founder's previous work, the aim here is showcasing experience and professionalism.
+-   What we offer: This page contains all relevant information about what a user can get from Arco - easy and comprehensive presentation with obvious links to what is on offer and how to book lessons.
+-   Book a lesson: Easy to navigate page for lesson bookings. Aim is to make it intuitive for the user - all done through submitting info and booking a lesson through calendly. User has opportunity to ask questions. 
+-   Masterclasses: Site users can come to Arco Drum Academy and listen to and importantly, learn from world-famous drummers. Easy booking form through calendly form and again, opportunity to ask questions. 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Brand and visual identity
 
-A blue button should appear to click: _Make Public_,
+The aim of the visuals was clean, professional and obvious. The Logo created was intended to be instantly recognisable as a Drum tuition school. 
 
-Another blue button should appear to click: _Open Browser_.
+There is much attention to detail throughout. The visual tone is intended to display professionalism and precision - projecting these themes and welcoming everyone to come, experience the same, and be a part of that journey.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The [home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page contains striking visuals of a video of a live show of the founder with stark text conveying the values and aims of Arco Drum Academy. 
 
-To log into the Heroku toolbelt CLI:
+Overall, the visual flow of the site is intended to be simple, visually pleasing and intuitive with the home page as the anchor.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The site is designed primarily for people who want to learn to play drums - from those who have never picked up sticks before to those who have experience of playing. 
+The hope is that beginners and experienced players all find something they want to experience, to get involved with and it's all under one roof. 
 
-------
+#### Potential customers:
 
-## Release History
+-   As a potential customer, I want to know what Arco Drum Academy is and who the teaching is aimed at (e.g. if I am a beginner what can they offer, if I am experienced what will I get out of it?)
+-   As a potential customer, I want an easy way to see what the Academy offers; from how much lessons are, to booking those lessons and if events happen at the Academy. I also might want to ask questions and be able to contact Arco Drum Academy with enquiries - by phone and email.
+-   As a potential customer, I wish to know who the teacher(s) are and what experience they have - why should I study there?
+-   As a potential customer, I want to get an idea as to what the facilities look like and the atmosphere of the studios.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+These questions are answered in the following ways:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+-   The home page is designed to be alluring, attractive and simple - it explains the goals and vision of the company, who it is for, where we are located - with a simple nav bar.
+-   Potential customers can see all that the Academy offers in more than one way: through the "What we offer" button on the [Home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page, and by accessing information through the nav bar to the 'What we offer', 'Book a lesson' and 'Masterclasses' pages - where potential customers can input email and ask questions. Information such as contact details for the academy are also located in the footer.
+-   The [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page  gives a detailed overview of what Arco Drum Academy is all about from lesson pricing, to info for beginners and those who wish to learn from famous drummers.
+-   The [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page is easy to use - with a calendly link for bookings and a form to ask questions should they so wish.
+-   The [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page is easy to navigate - the same layout as Book a lesson for user continuity - only exception is a drop-down to select a masterclass which brings another calendly link for bookings.
+-   The about page gives a comprehensive and personal look at the founder, his experience and his vision for the academy and for students. Links to previous work gives users the opportunity to 'experience' the professional work of the founder and enhances the credibility of the drum tutor(s)/teacher(s) and academy as a whole.
+-   Images throughout the site give potential customers/students the opportunity to see inside the studios, which enhances the offering - if a potential customer can see facilities, then they can become more excited at the prospect of being a part of it all.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### User Experience
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The site was created to be a visually appealing yet easily accessible and intuitive user experience across all devices. The site acts responsively based on screen-size - for example some buttons turn off to decrease the amount of moving between screens - a toggler appears on mobile to provide a visually appealing navbar experience. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Colour schemes were intended to be muted, with bold white lettering to give a clean appearance. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Use of the division of thirds was used in the information-based pages (What we offer, Book a lesson and Masterclasses) so that a user is drawn to essential information yet has a visually appealing experience.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## WIREFRAME
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+A detailed wire frame was designed to ensure the organisation and flow of content for desktop and mobile versions of the website.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The final version of the wireframe can be found [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+## FEATURES
 
-## FAQ about the uptime script
+Numerous features were used with the intention of giving a simple and intuitive, yet pleasant user experience.
 
-**Why have you added this script?**
+-   I used a sitewide alert to point to sale information for the user - with a clickable link to take them to the Book a lesson page - easy and simple to use.
+-   Fade In/Down welcome text on the home page, intended to draw the user into the site, creating a visually pleasing experience. 
+-   Background video on home page - intention to create an experience for the user - to draw them into the 'live' feel of playing in a studio. Visual appeal.
+-   The use of buttons throughout the site - intended to take the user clearly and simply to the areas of interest. Simple, intuitive navigation. 
+-   The use of a YouTube video and MP3 player gives the user direct access to the 'sound of the Academy' - gives them the opportunity to experience and be drawn in to the atmosphere of Arco Academy. 
+-   The calendly links give quick and visual access to the lessons and masterclasses available to them for immediate planning and accessibility - giving the user control over bookings and enquiries.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The site uses various features, many of which are native to bootstrap:
 
-**How will this affect me?**
+-   Forms and question boxes - such as those seen on Book a lesson and Masterclass pages. 
+-   Buttons  - site wide use of buttons.
+-   Modal windows on [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page to display information about lessons for beginners.
+-   Modal windows on [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page to display calendly link to book lessons.
+-   Modal windows on [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page to display calendly link to book slots for masterclasses.
+-   On mobile devices some buttons disappear and content text (from about page) disappears to allow for a more fluid user experience.
+-   Flexbox classes used to keep content fixed, regardless of content size.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### FEATURES LEFT TO IMPLEMENT
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-   Ideally, I would have liked to have produced/designed features that gave a more 'tactile' experience - buttons that made sounds or given some nods to drum sound effects. 
+    However, this meant using languages that were outside of the scope of this project - Javascript for example. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## TESTING
 
-**So….?**
+![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/wireframes/devices-display.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The site was tested on various platforms to ensure it displays across different screen sizes.
 
-**Can I opt out?**
+Form validation was tested on both the [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) and [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) pages. This was done to ensure that the Calendly links worked well across all formats and that when a user asks a question it is sent to the business. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Gif to illustrate how the Book a lesson works
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+-   User clicks on book a lesson button.
+-   This takes them to the Calendly select a day - a date then which they can select.
+-   this then takes them to selecting a time on the selected day.
+-   They then enter their contact details and a question (if they have one).
+-   They can then select close.
 
-**Anything more?**
+![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+### Gif to illustrate what happens when a question is submitted
+
+-   User enters personal details on the Book a lesson page and enters a question (email is required).
+-   The details are then sent to external source (in this case Formspree).
+-   Users enquiry arrives at email source (in this case my gmail),
+
+![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
+
+The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
+
+![Pingdom speed test result](https://archierowe.github.io/Archo-Drum-Academy/wireframes/pingdom.png)
+
+
+
+### Issues, challenges and bugs
+
+-   Numerous challenges presented themselves through this endeavour:
+-   Have had difficulty in implementation of game logic. Had inspiration from various 'guess the number games' from the folks at Udemy [Udemy - Jonas Schmedtmann] (https://www.udemy.com/course/the-complete-javascript-course) and also [Udemy - Bryson Payne] (https://www.udemy.com/course/javascript-for-kids). Game logic was dificult to realise as I had to figure out how to pull objects out of an array - a combination of these helped: [MDN] (https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute) and also [MDN] (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) All led to some interesting finds and brought me to things like the forEach() method and using input and class to utilise data-fruit.
+
+## DEPLOYMENT AND LIVE DEMO
+
+
+## TECHNOLOGIES
+
+### Languages and Frameworks
+
+-   HTML
+-   CSS
+-   JavaScript
+-   Bootstrap
+
+### Tools Used
+
+-   Balsamiq: Used to create wireframes.
+-   Gitpod: IDE used for creating and editing code.
+-   [Font Awesome](https://fontawesome.com): used for all icons throughout the site.
+-   [Google Fonts](https://fonts.google.com/): Oswald and Roboto fonts imported from google fonts.
+-   Affinity Photo: For editing of all photos and images across the site.
+-   iMovie: For the editing of the background video for the homepage.
+-   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - allowed me to learn how to embed a video into the [Home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page.
+-   [Responsive Viewer](https://http://ami.responsivedesign.is/#): a website that checks the responsiveness on any site at different screen sizes.
+-   [TinyPNG](https://tinypng.com/) used to compress images.
+-   [Pingdom](https://www.pingdom.com/) used to test site performance.
+-   [W3C Validator](https://validator.w3.org/) used to validate HTML and CSS code.
+
+## MEDIA
+
+-   Logo design used throughout the site was created through [Fiverr](https://www.fiverr.com/), with some editing by myself for use on this project.
+-   Photos throughout website - some are courtesy of [The Thinking Men](https://www.thethinkingmen.com/), the majority are owned by the student.
+
+## ACKNOWLEDGMENTS
+
+-   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement (such a legend)!
+-   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
+-   [MDN] (https://developer.mozilla.org/en-US/) - Many hours have been spent using this resource - particularly around the logic for the random fruit game logic and getAttribute info. Invaluable resource.
+-   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - such a great library of training videos and 'try it yourself' sections - very helpful!
+-   I have spent, again, many hours staring at the [Stackoverflow](https://stackoverflow.com/) site - gave insight and many threads to read on varying aspects of what I was trying to achieve. 
+-   My wife, for continually supporting and encouraging me. 
+-   My biggest inspiration has been my infant son - this game is for you, eventually...
