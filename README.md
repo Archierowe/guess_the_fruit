@@ -14,7 +14,7 @@ USE THIS IN ACKKNOWLEDGEMENTS section - I have been given permission to use imag
 ## Goals of this project
 
 - The primary goal of this 'Guess the Fruit' game is to be a visually exciting, colourful, child friendly game that will be great fun to play. It has crisp, bright visuals and vibrant sound.
-- The target audience is children between 1 and 5 and also the parents.
+- The target audience is children between 1 and 5 and also, parents!
 
 ### User stories
 
@@ -24,7 +24,7 @@ The game is designed for children aged between 1-5 years old.
 
 -   I want a fun game to play that is easily to understand.
 -   I want/need/require child friendly controls.
--   I need the game controls and buttons to obvious and 'clickable' - large and colourful buttons to attract my attention.
+-   I need the game controls/buttons to be obvious and 'clickable' - large and colourful buttons to attract my attention.
 -   I would like fun sounds and images/visuals.
 -   I need to be able to recognise the elements within the game.
 -   I would love visual and audible rewards when I play/win!
