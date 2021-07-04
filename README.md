@@ -162,6 +162,8 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
 -   [Pingdom](https://www.pingdom.com/) used to test site performance.
 -   [W3C Validator](https://validator.w3.org/) used to validate HTML and CSS code.
 
+W3schools - for the collapsed sidepanel code (modified by me).
+
 ## MEDIA
 
 -   Logo design used throughout the site was created through [Fiverr](https://www.fiverr.com/), with some editing by myself for use on this project.
@@ -172,7 +174,7 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement (such a legend)!
 -   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
 -   [MDN] (https://developer.mozilla.org/en-US/) - Many hours have been spent using this resource - particularly around the logic for the random fruit game logic and getAttribute info. Invaluable resource.
--   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - such a great library of training videos and 'try it yourself' sections - very helpful!
+-   [W3 Schools](https://www.w3schools.com - such a great library of training videos and 'try it yourself' sections - very helpful!
 -   I have spent, again, many hours staring at the [Stackoverflow](https://stackoverflow.com/) site - gave insight and many threads to read on varying aspects of what I was trying to achieve. 
 -   My wife, for continually supporting and encouraging me. 
 -   My biggest inspiration has been my infant son - this game is for you, eventually...
