@@ -147,6 +147,7 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
 -   CSS
 -   JavaScript
 -   Bootstrap
+-   W3 Schools
 
 ### Tools Used
 
@@ -156,7 +157,7 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
 -   [Google Fonts](https://fonts.google.com/): Oswald and Roboto fonts imported from google fonts.
 -   Affinity Photo: For editing of all photos and images across the site.
 -   iMovie: For the editing of the background video for the homepage.
--   [W3 Schools](https://www.w3schools.com/html/html5_video.asp) - allowed me to learn how to embed a video into the [Home](https://archierowe.github.io/Archo-Drum-Academy/index.html) page.
+-   [W3 Schools] very helpful in allowing for original code that I modified for a collapsed sidepanel (https://www.w3schools.com/howto/howto_js_collapse_sidepanel.asp)
 -   [Responsive Viewer](https://http://ami.responsivedesign.is/#): a website that checks the responsiveness on any site at different screen sizes.
 -   [TinyPNG](https://tinypng.com/) used to compress images.
 -   [Pingdom](https://www.pingdom.com/) used to test site performance.
