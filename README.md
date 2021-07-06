@@ -175,6 +175,7 @@ W3schools - for the collapsed sidepanel code (modified by me).
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement (such a legend)!
 -   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
 -   [MDN] (https://developer.mozilla.org/en-US/) - Many hours have been spent using this resource - particularly around the logic for the random fruit game logic and getAttribute info. Invaluable resource.
+-   [Codepen.io] Code from Saeed Salam - video mute/unmute button - modified by me for this project (https://codepen.io/saeedsalam/pen/WNerqrY) - many thanks!
 -   [W3 Schools](https://www.w3schools.com - such a great library of information and 'try it yourself' code - very helpful!
 -   I have spent, again, many hours staring at the [Stackoverflow](https://stackoverflow.com/) site - gave insight and many threads to read on varying aspects of what I was trying to achieve. 
 -   My wife, for continually supporting and encouraging me. 
