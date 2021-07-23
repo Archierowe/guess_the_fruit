@@ -3,13 +3,22 @@
 # Guess the fruit game
 
 ## DESCRIPTION
+This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory - recommended by a sensory special needs teacher. My son loves the images (dancing fruit) and the music, which is always upbeat and uplifting. When whe was 6 months old he always smiled and laughed as he watched strawberry's and blueberry's dancing to music. 
 
+I thought that making a small and accesible game for kids that included these fruits and images would be not only fun and entertaining but educational, as Wayne and Lucie over at Hey Bear Sensory say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were really happy for me to design and build a game that incorporates their winning formula (that has gained millions of views on their YouTube channel [Hey Bear Sensory] (https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg)) into a game for children. This is the first time that Hey Bear Sensory is in the hands of the child and not just on the 'Telly'. 
 
+Having worked with children (as a teacher) for a few years now and having a young child, I can vouch for the research and personal experience with sensory experiences and the link between this and learning. I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning. This game  also provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together. Add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... Have fun.
 
 
 ## UX
 
-USE THIS IN ACKKNOWLEDGEMENTS section - I have been given permission to use images from the brand for the purposes of this project [Hey Bear Sensory - thanks to Wayne!] (https://www.heybearsensory.com/)
+### Brand and visual identity
+
+The aim of the visuals is to allow this sensory experience to be be accessed in one place, not only that, the buttons and events were designed to allow for access to children of all abilities, so that all may enjoy interacting with Hey Bear sensory for themselves, not just watching it on the 'telly.'  
+
+Visuals were designed to be obvious, clean and inviting. Much attention to detail has been given and the interactive elements of the game are not impeded by branding and clutter. The game's 'buttons' are intuitive - the essentials are on the screen, however, the user (parents also) can get access to info about the game and Hey Bear Sensory's website and YouTube channel.
+
+Something for parents as well as the child, you can turn the music on the main game screen 'OFF' - for when those long car journeys, can seem 'longer' when the same music is repeated and repeated and... well, you get the idea.
 
 ## Goals of this project
 
@@ -53,8 +62,7 @@ What would parent's like in a game?
 
 #### Guess the fruit meets the parent's needs because:
 
-
--   Develpmental value. The game is designed to encourage visual and spatial awareness.
+-   Developmental value. The game is designed to encourage visual and spatial awareness.
 -   Chidren of varying abilities can enjoy the game.
 -   Visually appealing and recognisable.
 -   Parents can reset the game.
@@ -163,8 +171,6 @@ The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and
 -   [Pingdom](https://www.pingdom.com/) used to test site performance.
 -   [W3C Validator](https://validator.w3.org/) used to validate HTML and CSS code.
 
-W3schools - for the collapsed sidepanel code (modified by me).
-
 ## MEDIA
 
 -   Logo design used throughout the site was created through [Fiverr](https://www.fiverr.com/), with some editing by myself for use on this project.
@@ -172,11 +178,11 @@ W3schools - for the collapsed sidepanel code (modified by me).
 
 ## ACKNOWLEDGMENTS
 
--   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement (such a legend)!
--   Thank you also to the Code Institute's slack community for always responding to my requests for "Help!" and what seemed like silly questions at times!
--   [MDN] (https://developer.mozilla.org/en-US/) - Many hours have been spent using this resource - particularly around the logic for the random fruit game logic and getAttribute info. Invaluable resource.
+-   Huge thanks go to Wayne and Lucie at Hey Bear Sensory for allowing me the use of their brand and images for the purpose of this project [Hey Bear Sensory] (https://www.heybearsensory.com/).
+-   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement.
+-   [MDN] (https://developer.mozilla.org/en-US/) - Many hours have been spent using this resource - particularly around the logic for the random fruit game logic.
 -   [Codepen.io] Code from Saeed Salam - video mute/unmute button - modified by me for this project (https://codepen.io/saeedsalam/pen/WNerqrY) - many thanks!
 -   [W3 Schools](https://www.w3schools.com - such a great library of information and 'try it yourself' code - very helpful!
--   I have spent, again, many hours staring at the [Stackoverflow](https://stackoverflow.com/) site - gave insight and many threads to read on varying aspects of what I was trying to achieve. 
+-   I spent, as I often do, many hours staring at the [Stackoverflow](https://stackoverflow.com/) site - gave insight and many threads to read on varying aspects of what I was trying to achieve. 
 -   My wife, for continually supporting and encouraging me. 
--   My biggest inspiration has been my infant son - this game is for you, eventually...
+-   My biggest inspiration, Eben - this game is for you.
