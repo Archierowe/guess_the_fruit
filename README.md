@@ -2,13 +2,18 @@
 
 # Guess the fruit game
 
-## DESCRIPTION
-This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory - recommended by a sensory special needs teacher. My son loves the images (dancing fruit) and the music, which is always upbeat and uplifting. When whe was 6 months old he always smiled and laughed as he watched strawberry's and blueberry's dancing to music. 
+## Introduction and welcome
+This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and uplifting. When whe was 6 months old he always smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking...
 
-I thought that making a small and accesible game for kids that included these fruits and images would be not only fun and entertaining but educational, as Wayne and Lucie over at Hey Bear Sensory say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were really happy for me to design and build a game that incorporates their winning formula into this game. [Hey Bear Sensory] (https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) has millions of views on their YouTube channel. This is the first time that Hey Bear Sensory is in the hands of the child and not just on the 'Telly'. 
+What if I could make a fun and accesible game for kids that included these fruits and images? It would not only be fun and entertaining but educational, as Wayne and Lucie over at Hey Bear Sensory say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula into a game. [Hey Bear Sensory] (https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) has millions of views on their YouTube channel. 
 
-Having worked with children (as a teacher) for a few years now and having a young child, I can vouch for the research and personal experience with sensory experiences and the link between this and learning. I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning. This game  also provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together. Add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... Have fun.
+This is the first time that Hey Bear Sensory can be in the hands of the child (and parents) and not just, 'on the telly'. 
 
+I am a teacher myself, and having worked with children for years and having my own child, I can vouch for sensory experiences and when linked to learning are powerful and incredibly succesful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together. 
+
+I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning can aid with visual tracking, memory and concentration, even word association (should parents sit and explain each fruit by name for example - parents, get creative with this game, get involved!). So, add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... 
+
+Have fun.
 
 ## UX
 
@@ -22,8 +27,8 @@ There is something for parents as well as the child, you can turn the music on t
 
 ## Goals of this project
 
-- The primary goal of this 'Guess the Fruit' game is to be a visually exciting, colourful, child friendly game that will be great fun to play. It has crisp, bright visuals and vibrant sound.
-- The target audience is children between 18 months to whenever they might feel too old for it (never) and also, parents!
+- The primary goal of this 'Guess the Fruit' game is to be a visually exciting, colourful, child friendly game that will be great fun to play. It has crisp, bright visuals and vibrant sounds.
+- The target audience is children between 18 months to whenever they might feel too old for it (never) and also, parents.
 
 ### User stories
 
@@ -93,13 +98,37 @@ The game has a friendly family-feel design. There is an emphasis on design choic
 
 Wireframes were created for mobile, tablet and desktop using Balsamiq during the scope plane part of the design process for this project.
 
-The final version of the wireframe can be found * [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf)
+The final version of the wireframe can be found:
+* [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf)
 
 
 ## FEATURES
+### Existing features
 
 * Responsive on all screen sizes - but primarily designed for tablets.
 * Interactive elements.
+
+## Elements
+
+   * Header:
+   * This contains the title and main game info and feedback to the player. 
+      * About - this is for the parents - gives info about the game and Hear Bear Sensory and also provides links to Hey Bear's website and their YouTube channel.
+      * Result/feedback box - this is where the player is told to "Select a fruit" - the obvious position of the message (just above the fruit image panels) tells the player they need to touch one of the panels below. When a player guesses incorrectly a timeout function outputs a message of "Sorry, try again". 
+      * Music notes - this 'unmutes' the music so the user can have background music to the game. I decided to mute the music on startup, the player must 'unmute' it. This will bring another functional element into the game - the player must remember to 'turn the music on'.
+
+   * Main:
+   * This contains the fruit panels/images. These images are used with permission from Hey Bear Sensory and are fruits. A game could be also configured to include vegetables too as that's another key image feature of the Hey Bear brand. 
+
+   * Footer:
+   * This section contains two major elements - scorebox and new game.
+      * Scorebox - here, the player can see how many attempts they have left to guess the 'secret fruit' - the number decrements.
+      * Best score - here, the player can see how many attempts it took them to guess the 'secret fruit' - the 'best score' is recorded for the remainder of that session or until the player(s) refresh the page.
+      * New Game button - to reset the attempts should the user wish to.
+
+   * Modals:
+   *  Startup modal - this modal greets the player(s) and gives them very simple instructions on how to play the game...
+      ![Welcome modal on startup] (https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/welcome_modal.png)
+
 
 Numerous features were designed to give a simple, intuitive and fun user experience.
 
