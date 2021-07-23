@@ -54,7 +54,7 @@ The game is designed for children aged between 18 months upwards (or whenever a 
 
 #### Parent goals: What do parent goals look like?
 
-Parents have a tough job finding aspects of entertainment that are not 'wasteful' for their children. Hundreds and thousands of games are designed to grab the attention of children, this game is designed to bring an element of fun and colour and music to fruits that Parents may be trying to introduce to their little ones. Children now have the chance to interact with the visual elements that they have, only thus far, enjoyed through the screen. Now, parents can play with their children and bring this much loved sensory experience out of the screen and into their laps.
+Parents have a tough job finding aspects of entertainment that are not 'wasteful' for their children. Hundreds and thousands of games are designed to grab the attention of children and their parent's money, this game is designed to bring an element of fun and colour and music to fruits/food that parents may be trying to introduce to their little ones. Children now have the chance to interact with the visual elements that they have, only thus far, enjoyed through the screen. Now, parents can play with their children and bring this much loved sensory experience out of the screen and into their laps.
 
 What would parent's like in a game?
 
@@ -135,97 +135,77 @@ The final version of the wireframe can be found:
       * ![About the game modal](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/about_modal.png)
 
 
+### What I'd like to add in the future 'features'
+
+This is a fluid concept and one that could be added to as the game or whatever brand it connects to grows. I would like to add:
+   * A user highscore feature than runs across all sessions and one in local storage. 
+   * A play against other people feature - where someone could play against someone else.
+   *  New game modes where either attempts is lowered for hard mode or even more fruits added.
+   *  A carousel or a box where fruits are 'jumbled' up and then disappears as a game start feature. 
+   *  Characters - dancing icons or unique characters to the game.  
       
 
-Numerous features were designed to give a simple, intuitive and fun user experience.
 
--   I used a sitewide alert to point to sale information for the user - with a clickable link to take them to the Book a lesson page - easy and simple to use.
--   Fade In/Down welcome text on the home page, intended to draw the user into the site, creating a visually pleasing experience. 
--   Background video on home page - intention to create an experience for the user - to draw them into the 'live' feel of playing in a studio. Visual appeal.
--   The use of buttons throughout the site - intended to take the user clearly and simply to the areas of interest. Simple, intuitive navigation. 
--   The use of a YouTube video and MP3 player gives the user direct access to the 'sound of the Academy' - gives them the opportunity to experience and be drawn in to the atmosphere of Arco Academy. 
--   The calendly links give quick and visual access to the lessons and masterclasses available to them for immediate planning and accessibility - giving the user control over bookings and enquiries.
+## Technologies used
+   * The project uses HTML5, CSS3 and JavaScript.
 
-The site uses various features, many of which are native to bootstrap:
+## Frameworks, libraries and programs used
+   * [Affinity Photo](https://affinity.serif.com/en-gb/photo/):
+      * Affinity Photo was used to edit images.
+   * [Balsamiq](https://balsamiq.com/wireframes/):
+      * Balsamiq was used to create the wireframes during the design stages of this project.
+   * [Bootstrap](https://getbootstrap.com/):
+      * The project uses Bootstrap to simplify aspects of the layout (such as the grid template for the images).
+   * [iMovie](https://www.apple.com/uk/imovie/)
+      * IMovie was used to edit the videos and music from original sources that belong to [Hey Bear Sensory](https://www.heybearsensory.com/)
+   * [JQuery](https://jquery.com/):
+      * JQuery has been used to simplify aspects of JS code for some of the modals, the mute button and animate CSS.
+   * [Visual Studio Code](https://code.visualstudio.com/):
+      Developer used Visual Studio Code for their IDE while building this website.
+   * [Google Fonts](https://fonts.google.com/):
+      * Google Fonts used to style the fonts site-wide.
+   * [GitHub](https://github.com/):
+      * All code stored and pushed to GitHub for this project.
+   * [Font Awesome](https://fontawesome.com)
+      *  Font Awesome was used for icons on the site.
+   * [Pingdom](https://www.pingdom.com/):
+      * Pingdom was used to test the site peformance.
+   * [Responsive Viewer](https://http://ami.responsivedesign.is/#):
+      * Used to check for responsiveness across screen sizes.
+   * [TinyPNG](https://tinypng.com/):
+      * Tiny PNG was used to compress images.
+   * [W3 Schools](https://www.w3schools.com/):
+      * W3 schools used for many ideas and snippets that have been tried out, modified and even discarded!
+   * [W3C Validator](https://validator.w3.org/):
+      * W3C Validator was used to validate HTML and CSS code.  
 
--   Forms and question boxes - such as those seen on Book a lesson and Masterclass pages. 
--   Buttons  - site wide use of buttons.
--   Modal windows on [What we offer](https://archierowe.github.io/Archo-Drum-Academy/what-we-offer.html) page to display information about lessons for beginners.
--   Modal windows on [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) page to display calendly link to book lessons.
--   Modal windows on [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) page to display calendly link to book slots for masterclasses.
--   On mobile devices some buttons disappear and content text (from about page) disappears to allow for a more fluid user experience.
--   Flexbox classes used to keep content fixed, regardless of content size.
-
-### FEATURES LEFT TO IMPLEMENT
-
--   Ideally, I would have liked to have produced/designed features that gave a more 'tactile' experience - buttons that made sounds or given some nods to drum sound effects. 
-    However, this meant using languages that were outside of the scope of this project - Javascript for example. 
 
 ## TESTING
 
-![Arco Drum Academy website on different screensizes](https://archierowe.github.io/Archo-Drum-Academy/wireframes/devices-display.png)
 
-The site was tested on various platforms to ensure it displays across different screen sizes.
-
-Form validation was tested on both the [Book a lesson](https://archierowe.github.io/Archo-Drum-Academy/book-a-lesson.html) and [Masterclasses](https://https://archierowe.github.io/Archo-Drum-Academy/masterclasses.html) pages. This was done to ensure that the Calendly links worked well across all formats and that when a user asks a question it is sent to the business. 
-
-### Gif to illustrate how the Book a lesson works
-
--   User clicks on book a lesson button.
--   This takes them to the Calendly select a day - a date then which they can select.
--   this then takes them to selecting a time on the selected day.
--   They then enter their contact details and a question (if they have one).
--   They can then select close.
-
-![Book a lesson process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/book-a-lesson.gif)
-
-
-
-### Gif to illustrate what happens when a question is submitted
-
--   User enters personal details on the Book a lesson page and enters a question (email is required).
--   The details are then sent to external source (in this case Formspree).
--   Users enquiry arrives at email source (in this case my gmail),
-
-![ask a question process](https://archierowe.github.io/Archo-Drum-Academy/wireframes/ask-a-question.gif)
-
-The HTML and CSS was validated on [W3C Validator](https://validator.w3.org/) and speed tested on [Pingdom](https://www.pingdom.com/)
-
-![Pingdom speed test result](https://archierowe.github.io/Archo-Drum-Academy/wireframes/pingdom.png)
 
 
 
 ### Issues, challenges and bugs
 
 -   Numerous challenges presented themselves through this endeavour:
--   Have had difficulty in implementation of game logic. Had inspiration from various 'guess the number games' from the folks at Udemy [Udemy - Jonas Schmedtmann] (https://www.udemy.com/course/the-complete-javascript-course) and also [Udemy - Bryson Payne] (https://www.udemy.com/course/javascript-for-kids). Game logic was dificult to realise as I had to figure out how to pull objects out of an array - a combination of these helped: [MDN] (https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute) and also [MDN] (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) All led to some interesting finds and brought me to things like the forEach() method and using input and class to utilise data-fruit.
+
+
 
 ## DEPLOYMENT AND LIVE DEMO
 
+This project was developed using Visual Studio Code and the IDE, commits to git and pushes were done using the inbuilt function within Visual Studio Code.
 
-## TECHNOLOGIES
+To deploy Guess the Fruit from its GitHub repository, the follow steps were taken:
 
-### Languages and Frameworks
+1. Logged into GitHub.
+2. From the list of repo's onscreen, select Archierowe/guess_the_fruit
+3. From menu items near the top of the page, select settings
 
--   HTML
--   CSS
--   JavaScript
--   Bootstrap
--   W3 Schools
 
 ### Tools Used
 
--   Balsamiq: Used to create wireframes.
--   Gitpod: IDE used for creating and editing code.
--   [Font Awesome](https://fontawesome.com): used for all icons throughout the site.
--   [Google Fonts](https://fonts.google.com/): Oswald and Roboto fonts imported from google fonts.
--   Affinity Photo: For editing of all photos and images across the site.
--   iMovie: For the editing of the background video for the homepage.
--   [W3 Schools] very helpful in allowing for original code that I modified for a collapsed sidepanel (https://www.w3schools.com/howto/howto_js_collapse_sidepanel.asp)
--   [Responsive Viewer](https://http://ami.responsivedesign.is/#): a website that checks the responsiveness on any site at different screen sizes.
--   [TinyPNG](https://tinypng.com/) used to compress images.
--   [Pingdom](https://www.pingdom.com/) used to test site performance.
--   [W3C Validator](https://validator.w3.org/) used to validate HTML and CSS code.
+
 
 ## MEDIA
 
