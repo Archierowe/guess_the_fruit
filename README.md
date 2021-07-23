@@ -99,7 +99,7 @@ The game has a friendly family-feel design. There is an emphasis on design choic
 Wireframes were created for mobile, tablet and desktop using Balsamiq during the scope plane part of the design process for this project.
 
 The final version of the wireframe can be found:
-* [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf)
+* [here]
 
 
 ## FEATURES
@@ -127,7 +127,7 @@ The final version of the wireframe can be found:
 
    * Modals:
    *  Startup modal - this modal greets the player(s) and gives them very simple instructions on how to play the game...
-      ![Welcome modal on startup] (https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/welcome_modal.png)
+      ![Welcome modal on startup] (/gifs/welcome_modal.png)
 
 
 Numerous features were designed to give a simple, intuitive and fun user experience.
