@@ -117,7 +117,8 @@ The final version of the wireframe can be found:
       * Music notes - this 'unmutes' the music so the user can have background music to the game. I decided to mute the music on startup, the player must 'unmute' it. This will bring another functional element into the game - the player must remember to 'turn the music on'.
 
    * Main:
-   * This contains the fruit panels/images. These images are used with permission from Hey Bear Sensory and are fruits. A game could be also configured to include vegetables too as that's another key image feature of the Hey Bear brand. 
+   * This contains the fruit panels/images. These images are used with permission from Hey Bear Sensory and are fruits. A game could be also configured to include vegetables too as that's another key image feature of the Hey Bear brand.
+   ![fruit images](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/fruit_images.png)
 
    * Footer:
    * This section contains two major elements - scorebox and new game.
@@ -126,9 +127,15 @@ The final version of the wireframe can be found:
       * New Game button - to reset the attempts should the user wish to.
 
    * Modals:
-   *  Startup modal - this modal greets the player(s) and gives them very simple instructions on how to play the game...
-      ![Welcome modal on startup] (/gifs/welcome_modal.png)
+      * Startup modal - this modal greets the player(s) and gives them very simple instructions on how to play the game...
+      ![Welcome modal on startup](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/welcome_modal.png)
+      * 'game over' modal - this modal - this is 'loseModal' in the code - so it was easy to understand in that context. This modal is a very simple modal - 'Game Over' image and New Game button to get the player back in the game. 
+      ![Lose modal when attempts used up](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/game_over_modal.png)
+      * About modal - this is the modal for parents and anyone interested in knowing more about the game and why it was designed. 
+      * ![About the game modal](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/about_modal.png)
 
+
+      
 
 Numerous features were designed to give a simple, intuitive and fun user experience.
 
