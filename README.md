@@ -14,74 +14,94 @@ Having worked with children (as a teacher) for a few years now and having a youn
 
 ### Brand and visual identity
 
-The aim of the visuals is to allow this sensory experience to be be accessed in one place, not only that, the buttons and events were designed to allow for access to children of all abilities, so that all may enjoy interacting with Hey Bear sensory for themselves, not just watching it on the 'telly.'  
+The aim of the visuals is to allow this sensory experience to be be accessed all in one place, not only that, the buttons and events were designed to allow for access to children of all abilities, so that all may enjoy interacting with Hey Bear sensory for themselves, not just watching it on the 'telly.'  
 
-Visuals were designed to be obvious, clean and inviting. Much attention to detail has been given and the interactive elements of the game are not impeded by branding and clutter. The game's 'buttons' are intuitive - the essentials are on the screen, however, the user (parents also) can get access to info about the game and Hey Bear Sensory's website and YouTube channel.
+Visuals were designed to be obvious, clean and inviting. Much consideration has been given so that the interactive elements of the game are not impeded by branding and clutter. The game's 'buttons' are intuitive - the essentials are on the screen, however, the user (parents also) can get access to info about the game and Hey Bear Sensory's website and YouTube channel through the About button.
 
-Something for parents as well as the child, you can turn the music on the main game screen 'OFF' - for when those long car journeys, can seem 'longer' when the same music is repeated and repeated and... well, you get the idea.
+There is something for parents as well as the child, you can turn the music on the main game screen 'OFF' - for when those long car journeys, can seem 'longer' when the same music is repeated and repeated and... well, you get the idea.
 
 ## Goals of this project
 
 - The primary goal of this 'Guess the Fruit' game is to be a visually exciting, colourful, child friendly game that will be great fun to play. It has crisp, bright visuals and vibrant sound.
-- The target audience is children between 1 and 5 and also, parents!
+- The target audience is children between 18 months to whenever they might feel too old for it (never) and also, parents!
 
 ### User stories
 
-The game is designed for children aged between 1-5 years old.
+The game is designed for children aged between 18 months upwards (or whenever a parent might like to introduce thei little one to a game such as this).
 
 #### Player goals:
 
 -   I want a fun game to play that is easily to understand.
--   I want/need/require child friendly controls.
--   I need the game controls/buttons to be obvious and 'clickable' - large and colourful buttons to attract my attention.
+-   I want/need/require child friendly controls. I need the game controls/buttons to be obvious and 'clickable' - large and colourful buttons to attract my attention.
 -   I would like fun sounds and images/visuals.
 -   I need to be able to recognise the elements within the game.
 -   I would love visual and audible rewards when I play/win!
 
 #### Guess the fruit meets the player's needs because:
 
--   The game has visual appeal and was actually inspired by a series of YouTube videos from a company called [Hey Bear Sensory] (https://www.heybearsensory.com/). The videos are designed to capture the attention of young children through colourful images of fruit and veg accompanied by free to use music from Youtube. (I have been given permission to use images from the brand [Hey Bear Sensory - thanks to Wayne!] (https://www.heybearsensory.com/).
--   The game is fun, colourful and vibrant - most certainly recognisable by a lot of children (I have surveyed a number of friends with children, all of whom have attested to the fact that Hey Bear Sensory is a popular channel - which has millions upon millions of viewers globally). 
--   The game is obervably obvious with a carousel of fruit which then disappears - the user then has a number of fruits to 'push' on screen. If the user guesses which one is hidden then they win! They have 9 attempts and the best score is recorded.  
--   The game controls are obvious and in the form of the fruits that appear in the majority of Hey Bear Sensory's videos.
--   The sounds and images are also from hey Bear Sensory. 
+-   The game is fun, easy to understand, colourful and vibrant.
+-   The game controls are obvious, a series on square 'panels' they can touch on screen wth a finger or mouse click and in the form of the fruits that appear in the majority of Hey Bear Sensory's videos (most certainly recognisable by a lot of children as I have surveyed a number of friends with children, all of whom have attested to the fact that Hey Bear Sensory is a popular channel). 
 -   The fruits are among the most common out there! Most certainly what children will have seen (and hopefully eaten) before.
 -   Plenty of visual and audible stimulus in the form of music and vibrant design.
+-   When a game is won, a 'Winner modal' appears and plays a music video.
+-   A highscore is also recorded for that play session.
 
 
 #### Parent goals: What do parent goals look like?
 
-Parents have a tough job finding aspects of entertainment that are not 'wasteful' for their children. Hundreds and thousands of games are designed to grab the attention of children, this game is designed to partner with Hey Bear Sensory and bring an element of fun to be enjoyed that children have not yet experienced from this channel/brand. They now have the chance to interact with the visual elements that they have, only thus far, enjoyed through the screen. Now, parents can play with their children and bring this, much loved, experience out of the screen and into their laps.
+Parents have a tough job finding aspects of entertainment that are not 'wasteful' for their children. Hundreds and thousands of games are designed to grab the attention of children, this game is designed to bring an element of fun and colour and music to fruits that Parents may be trying to introduce to their little ones. Children now have the chance to interact with the visual elements that they have, only thus far, enjoyed through the screen. Now, parents can play with their children and bring this much loved sensory experience out of the screen and into their laps.
 
 What would parent's like in a game?
 
--   Developmental value?
+-   Developmental value.
 -   Is the game accesible?
 -   Is the game fun to play?
 -   Is it a loud game? What parental controls are there?
 
 #### Guess the fruit meets the parent's needs because:
 
--   Developmental value. The game is designed to encourage visual and spatial awareness.
--   Chidren of varying abilities can enjoy the game.
+-   Developmental value: The game is designed to encourage and develop visual, spatial awareness through movement and allows for visual tracking and interaction. 
+-   Chidren of all abilities can enjoy the game.
 -   Visually appealing and recognisable.
 -   Parents can reset the game.
 -   There is a mute button!
 
 
-The site acts responsively based on screen-size.
+## Design choices
 
+The game has a friendly family-feel design. There is an emphasis on design choices that relfect the desire for the images and visuals to speak for themselves and also to allow for the game to be easily accesible with minimal clutter. The following design choices were made:
 
-## WIREFRAME
+* Colour Scheme
+    * Background colour of the main page is black - to allow for images to be striking and bold. Whilst the striking visuals are included as part of the design, the desire was not to overwhelm the user, a muted background allows for the fruit images to be seen clearly and makes it obvious as to the function of the panels the images are contained within.
+    * The background colour of any modals and buttons are dark grey to stand out on the background. 
+    * Multicolour text has been included for vibrancy to headers in modals.
 
-A detailed wire frame was designed to ensure the organisation and flow of content for desktop and mobile versions of the website.
+* Typography
+    * Roboto Mono is used throughout to give a clean, nicely spaced and easily readable aesthetic. The fall back is Sans Serif if, for any reason, Roboto Mono is not imported into the site correctly. 
+    * Games on app store were considered when looking at fonts. The decision was that a bold but clear (as it's non-cursive) font would allow for it to be read on screens of varying sizes. 
 
-The final version of the wireframe can be found [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf)
+* Imagery
+    * The images picked were intentional - the fruit images are smiling - so that the child is greeted with happy faces from the moment they engage with the game. 
+    * Images used are vibrant and colourful - images are recognisable by children who have seen Hey Bear Sensory on YouTube. The images are from several of the videos developed by the brand and will be recognisable by many children.
+    * Even if the child playing this game has not seen Hey Bear Sensory videos, the fruits are obvious and friendly!
+
+* Styling
+    * !Important - The modals were picked as a way of giving the user the info they needed via the function of either winning the game or when all attempts to find the 'secret fruit' are depleted and they need to 'start-over'. Modals were picked as they 'interrupt' the game only when necessary - not ruining the flow of the game when being played. 
+    * (On desktop) Hover effects are used on buttons to allow for depth on the webpage. 
+
+## Wireframes
+
+Wireframes were created for mobile, tablet and desktop using Balsamiq during the scope plane part of the design process for this project.
+
+The final version of the wireframe can be found * [here](https://archierowe.github.io/Archo-Drum-Academy/wireframes/arco-wireframe.pdf)
 
 
 ## FEATURES
 
-Numerous features were used with the intention of giving a simple and intuitive, yet pleasant user experience.
+* Responsive on all screen sizes - but primarily designed for tablets.
+* Interactive elements.
+
+Numerous features were designed to give a simple, intuitive and fun user experience.
 
 -   I used a sitewide alert to point to sale information for the user - with a clickable link to take them to the Book a lesson page - easy and simple to use.
 -   Fade In/Down welcome text on the home page, intended to draw the user into the site, creating a visually pleasing experience. 
