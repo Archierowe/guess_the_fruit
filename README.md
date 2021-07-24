@@ -5,11 +5,11 @@
 ## Introduction and welcome
 This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and uplifting. When whe was 6 months old he always smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking...
 
-What if I could make a fun and accesible game for kids that included these fruits and images? It would not only be fun and entertaining but educational, as Wayne and Lucie over at Hey Bear Sensory say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula into a game. [Hey Bear Sensory] (https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) has millions of views on their YouTube channel. 
+What if I could make a fun and accesible game for kids that included these fruits and images? It would not only be fun and entertaining but educational, as Wayne and Lucie over at Hey Bear Sensory say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula into a game. [Hey Bear Sensory](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) has millions of views on their YouTube channel. 
 
 This is the first time that Hey Bear Sensory can be in the hands of the child (and parents) and not just, 'on the telly'. 
 
-I am a teacher myself, and having worked with children for years and having my own child, I can vouch for sensory experiences and when linked to learning are powerful and incredibly succesful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together. 
+I am a teacher and having worked with children for years (and having my own child), I can vouch for sensory experiences when linked to learning can be powerful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together. 
 
 I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning can aid with visual tracking, memory and concentration, even word association (should parents sit and explain each fruit by name for example - parents, get creative with this game, get involved!). So, add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... 
 
@@ -27,12 +27,38 @@ There is something for parents as well as the child, you can turn the music on t
 
 ## Goals of this project
 
-- The primary goal of this 'Guess the Fruit' game is to be a visually exciting, colourful, child friendly game that will be great fun to play. It has crisp, bright visuals and vibrant sounds.
-- The target audience is children between 18 months to whenever they might feel too old for it (never) and also, parents.
+The goal of this project is to provide a game that is fun, visually striking and child friendly. It should be easy to understand and lot's of fun for all who play.  The target audience is children between 18 months to...whenever they might feel too old for it (never) and also, parents.
+
+
+#### Player goals:
+* A game that is fun to play.
+* Have game controls that are easy to understand.
+* Fun and colourful images.
+* Music and music videos to reward the player and give information about the game. 
+
+#### Guess the fruit was designed to meet these needs:
+* The game was designed with fun and simplicity in mind.
+* The game controls/buttons are at a fixed point and easy to see and understand what they do.
+* Colours and images have been designed to be obvious and provide visual stimulus.
+* Guess the fruit uses visual and audio rewards whilst playing.
+
+
+#### Parent goals:
+Parents have a tough job finding aspects of entertainment that are not 'wasteful' for their children. Hundreds and thousands of games are designed to grab the attention of children and their parent's money, this game is designed to bring an element of fun and colour and music to fruits/food that parents may be trying to introduce to their little ones. Children now have the chance to interact with the visual elements that they have, only thus far, enjoyed through the screen. Now, parents can play with their children and bring this much loved sensory experience out of the screen and into their laps.
+
+* Parents would prefer developmental value in a product.
+* The game must be accessible for children of differing abilities.
+* The parent can mute the sound.
+* There is information about the game for parents and player.
+
+#### Guess the fruit was designed to meet these needs:
+* The game was designed to not only be fun; the visuals and gameplay encourage development of memory and visual and spatial awareness.
+* The game is easy to understand and is accessible through obvious and intuitive controls.
+* There is a mute button for the main game music.
+* There is an about button for parents and a 'how to play' modal on game startup.
+
 
 ### User stories
-
-The game is designed for children aged between 18 months upwards (or whenever a parent might like to introduce thei little one to a game such as this).
 
 #### Player goals:
 
@@ -54,8 +80,6 @@ The game is designed for children aged between 18 months upwards (or whenever a 
 
 #### Parent goals: What do parent goals look like?
 
-Parents have a tough job finding aspects of entertainment that are not 'wasteful' for their children. Hundreds and thousands of games are designed to grab the attention of children and their parent's money, this game is designed to bring an element of fun and colour and music to fruits/food that parents may be trying to introduce to their little ones. Children now have the chance to interact with the visual elements that they have, only thus far, enjoyed through the screen. Now, parents can play with their children and bring this much loved sensory experience out of the screen and into their laps.
-
 What would parent's like in a game?
 
 -   Developmental value.
@@ -68,17 +92,18 @@ What would parent's like in a game?
 -   Developmental value: The game is designed to encourage and develop visual, spatial awareness through movement and allows for visual tracking and interaction. 
 -   Chidren of all abilities can enjoy the game.
 -   Visually appealing and recognisable.
--   Parents can reset the game.
--   There is a mute button!
+-   Parents can reset the game and there is a mute button!
 
 
 ## Design choices
 
-The game has a friendly family-feel design. There is an emphasis on design choices that relfect the desire for the images and visuals to speak for themselves and also to allow for the game to be easily accesible with minimal clutter. The following design choices were made:
+The game has a friendly family-feel design. There is an emphasis on design choices that reflect the desire for the images and visuals to speak for themselves and also to allow for the game to be easily accesible with minimal clutter. 
+
+#### The following design choices were made:
 
 * Colour Scheme
     * Background colour of the main page is black - to allow for images to be striking and bold. Whilst the striking visuals are included as part of the design, the desire was not to overwhelm the user, a muted background allows for the fruit images to be seen clearly and makes it obvious as to the function of the panels the images are contained within.
-    * The background colour of any modals and buttons are dark grey to stand out on the background. 
+    * The background colour of any modals and buttons are dark grey to ensure they stand out. 
     * Multicolour text has been included for vibrancy to headers in modals.
 
 * Typography
@@ -140,11 +165,10 @@ The final version of the wireframe can be found:
 This is a fluid concept and one that could be added to as the game or whatever brand it connects to grows. I would like to add:
    * A user highscore feature than runs across all sessions and one in local storage. 
    * A play against other people feature - where someone could play against someone else.
-   *  New game modes where either attempts is lowered for hard mode or even more fruits added.
-   *  A carousel or a box where fruits are 'jumbled' up and then disappears as a game start feature. 
-   *  Characters - dancing icons or unique characters to the game.  
+   * New game modes where either attempts is lowered for hard mode or even more fruits added.
+   * A carousel or a box where fruits are 'jumbled' up and then disappears as a game start feature. 
+   * Characters - dancing icons or unique characters to the game.  
       
-
 
 ## Technologies used
    * The project uses HTML5, CSS3 and JavaScript.
@@ -192,7 +216,7 @@ This is a fluid concept and one that could be added to as the game or whatever b
 
 
 
-## DEPLOYMENT AND LIVE DEMO
+## Deployment 
 
 This project was developed using Visual Studio Code and the IDE, commits to git and pushes were done using the inbuilt function within Visual Studio Code.
 
@@ -203,22 +227,34 @@ To deploy Guess the Fruit from its GitHub repository, the follow steps were take
 3. From menu items near the top of the page, select settings
 
 
-### Tools Used
 
 
+## Credits
 
-## MEDIA
+### Content
+* All text was written by the developer.
 
--   Logo design used throughout the site was created through [Fiverr](https://www.fiverr.com/), with some editing by myself for use on this project.
--   Photos throughout website - some are courtesy of [The Thinking Men](https://www.thethinkingmen.com/), the majority are owned by the student.
+### MEDIA
+
+### Images and video
+* Images for game panels and music videos courtesy of [Hey Bear Sensory] (https://www.heybearsensory.com/).
+* Image for Game Over modal sourced from [unsplash](https://unsplash.com/)
+
+### Audio
+* Audio file for main game was sourced from YouTube free music library - track title: [Fun by Vibe Tracks](https://www.youtube.com/watch?v=WnxBHhu93d4).
+* Audio file for Win game modal video sourced from YouTube free music library - track title: [Diskofunque by Francis Preve](https://www.youtube.com/watch?v=1gbjn_YYvas).
+
+### Code
+* Various sections of my code were inspired by many many Stack Overflow posts which led me to try out various things in order to understand what I was trying to achieve. Some examples are [How to open a bootstrap modal using JQuery](https://stackoverflow.com/questions/13183630/how-to-open-a-bootstrap-modal-window-using-jquery) and [how to add an avent after modal is closed](https://stackoverflow.com/questions/14840870/how-to-add-an-event-after-close-the-modal-window/26934034) which allowed me to figure out some JQuery code I had no knowledge of before. This led me to figuring out how to add a mute button in JQuery and other neat features I would have perhaps given up on had I not ventured into the fun of JQuery! 
+* SetTimeout function code was inspired by [W3Schools](https://www.w3schools.com/js/js_timing.asp).
+* Parent function info was inspired by code from these posts [Stack Overflow](https://stackoverflow.com/questions/10960162/javascript-call-parent-function).
+* Code (which I modified in JQuery) for animation bounce on the main game panels was from [Animate CSS](https://animate.style/).
+* [Codepen.io](https://codepen.io/saeedsalam/pen/WNerqrY)Code from Saeed Salam - video mute/unmute button - modified by me for this project - many thanks!
 
 ## ACKNOWLEDGMENTS
 
 -   Huge thanks go to Wayne and Lucie at Hey Bear Sensory for allowing me the use of their brand and images for the purpose of this project [Hey Bear Sensory] (https://www.heybearsensory.com/).
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement.
--   [MDN] (https://developer.mozilla.org/en-US/) - Many hours have been spent using this resource - particularly around the logic for the random fruit game logic.
--   [Codepen.io] Code from Saeed Salam - video mute/unmute button - modified by me for this project (https://codepen.io/saeedsalam/pen/WNerqrY) - many thanks!
--   [W3 Schools](https://www.w3schools.com - such a great library of information and 'try it yourself' code - very helpful!
--   I spent, as I often do, many hours staring at the [Stackoverflow](https://stackoverflow.com/) site - gave insight and many threads to read on varying aspects of what I was trying to achieve. 
 -   My wife, for continually supporting and encouraging me. 
 -   My biggest inspiration, Eben - this game is for you.
+-   All content included in this website is intended solely for educational purposes by the developer. 
