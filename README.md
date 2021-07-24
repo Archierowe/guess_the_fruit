@@ -204,15 +204,16 @@ This is a fluid concept and one that could be added to as the game or whatever b
       * W3C Validator was used to validate HTML and CSS code.  
 
 
-## TESTING
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator sites were used to validate each section of the project to minimise syntax errors overall. 
+[W3C Markup Validator](
 
 
 
+#### Known bugs
 
-
-### Issues, challenges and bugs
-
--   Numerous challenges presented themselves through this endeavour:
+-   On some mobile devices and desktop sizes the layout of the screen requires a scroll to see the scorebox and new game button.
 
 
 
@@ -234,7 +235,7 @@ To deploy Guess the Fruit from its GitHub repository, the follow steps were take
 ### Content
 * All text was written by the developer.
 
-### MEDIA
+### Media
 
 ### Images and video
 * Images for game panels and music videos courtesy of [Hey Bear Sensory](https://www.heybearsensory.com/)
@@ -249,9 +250,9 @@ To deploy Guess the Fruit from its GitHub repository, the follow steps were take
 * SetTimeout function code was inspired by [W3Schools](https://www.w3schools.com/js/js_timing.asp)
 * Parent function info was inspired by code from these posts [Stack Overflow](https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
 * Code (which I modified in JQuery) for animation bounce on the main game panels was from [Animate CSS](https://animate.style/)
-* 
 
-## ACKNOWLEDGMENTS
+
+## Acknowledgements
 
 -   Huge thanks go to Wayne and Lucie at Hey Bear Sensory for allowing me the use of their brand and images for the purpose of this project [Hey Bear Sensory](https://www.heybearsensory.com/)
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement.
