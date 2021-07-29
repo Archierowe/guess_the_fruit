@@ -250,6 +250,7 @@ To deploy Guess the Fruit from its GitHub repository, the follow steps were take
 * SetTimeout function code was inspired by [W3Schools](https://www.w3schools.com/js/js_timing.asp)
 * Parent function info was inspired by code from these posts [Stack Overflow](https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
 * Code (which I modified in JQuery) for animation bounce on the main game panels was from [Animate CSS](https://animate.style/)
+* Modified some code for flashing/blinking text for the 'Game Over' modal [HTML Online](https://html-online.com/articles/blinking-text-css-animation/)
 
 
 ## Acknowledgements
