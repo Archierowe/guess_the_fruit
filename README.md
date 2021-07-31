@@ -1,20 +1,19 @@
 <h1 align="center">
-   <a href="https://archierowe.github.io/guess_the_fruit/" target="_blank"> <img src="
+   <a href="https://archierowe.github.io/guess_the_fruit/" target="_blank"> <img src="https://i.ibb.co/bPgQf0F/Welcome-to-GTF.png" alt="Welcome to: Guess the Fruit" border="0">
+      </h1>      
 
-# Guess the fruit game
+# Guess the Fruit 
 
 ## Introduction and welcome
-This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and uplifting. When whe was 6 months old he always smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking...
+This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and uplifting. When whe was 6 months old he always smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking... What if I could make a fun and accesible game for kids that included these fruits and images? It would not only be fun and entertaining but educational.
 
-What if I could make a fun and accesible game for kids that included these fruits and images? It would not only be fun and entertaining but educational, as Wayne and Lucie over at Hey Bear Sensory say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula into a game. [Hey Bear Sensory](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) has millions of views on their YouTube channel. 
+[Hey Bear Sensory](https://www.heybearsensory.com/) say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula into a game. Hey Bear Sensory has millions of views on their YouTube channel - check them out! [Hey Bear Sensory - YouTube](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg). 
 
-This is the first time that Hey Bear Sensory can be in the hands of the child (and parents) and not just, 'on the telly'. 
-
-I am a teacher and having worked with children for years (and having my own child), I can vouch for sensory experiences when linked to learning can be powerful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together. 
+I am a teacher and having worked with children for years (and having my own child), I can vouch that when sensory experiences are linked to learning, they can be powerful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together and this is the first time that Hey Bear Sensory can be in the hands of the child (and parents) and not just, 'on the telly'.
 
 I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning can aid with visual tracking, memory and concentration, even word association (should parents sit and explain each fruit by name for example - parents, get creative with this game, get involved!). So, add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... 
 
-Have fun.
+Have fun. (multicoloured text?)
 
 ## UX
 
@@ -134,47 +133,46 @@ The final version of the wireframe can be found:
 * Responsive on all screen sizes - but primarily designed for tablets.
 * Interactive elements.
 
-## Elements
 
-   ### Header:
+### Header:
    * This contains the title and main game info and feedback to the player. 
       * About - this is for the parents - gives info about the game and Hear Bear Sensory and also provides links to Hey Bear's website and their YouTube channel.
       * Result/feedback box - this is where the player is told to "Select a fruit" - the obvious position of the message (just above the fruit image panels) tells the player they need to touch one of the panels below. When a player guesses incorrectly a timeout function outputs a message of "Sorry, try again". 
       * Music notes - this 'unmutes' the music so the user can have background music to the game. I decided to mute the music on startup, the player must 'unmute' it. This will bring another functional element into the game - the player must remember to 'turn the music on'.
 
-   ### Main:
+### Main:
    * This contains the fruit panels/images. These images are used with permission from Hey Bear Sensory and are fruits. A game could be also configured to include vegetables too as that's another key image feature of the Hey Bear brand.
    <div align="center">
    <img src="https://i.ibb.co/ckSYkTT/Fruit-images.png" alt="Fruit_images" border="0">
    </div>
 
-   ### Footer:
+### Footer:
    * This section contains two major elements - scorebox and new game.
       * Scorebox - here, the player can see how many attempts they have left to guess the 'secret fruit' - the number decrements.
       * Best score - here, the player can see how many attempts it took them to guess the 'secret fruit' - the 'best score' is recorded for the remainder of that session or until the player(s) refresh the page.
       * New Game button - to reset the attempts should the user wish to.
-
-   ### Modals:
-      1. **Startup modal**
-      - This modal greets the player(s) and gives them very simple instructions on how to play the game...
-   
+      
+### Modals:
+  1. **Game start modal** 
+      - This modal greets the player(s) and gives them very simple instructions on how to play the game... 
+      
 <div align="center">
 <img src="https://i.ibb.co/DLDh0zZ/Welcome-modal.png" alt="Welcome_modal screenshot" border="0">
-      </div>
-       
-      2. **'Game over' modal**
-      - This modal - this is 'loseModal' in the code - so it was easy to understand in that context. Designed to be simple yet colourful and flashing multicolour text suggests losing the game and trying again isn't all that bad!
+</div>
       
-      <div align="center">
-      <img src="https://i.ibb.co/BftmQCh/Game-over-modal.png" alt="Game_over_modal screenshot" border="0">
-      </div>
+  2. **About modal** 
+      - This is a modal primarily for the parents who may choose/desire to know more info about the game.
       
-      3. **About modal**
-       - This is the modal for parents and anyone interested in knowing more about the game and why it was designed. 
+<div align="center">
+<img src="https://i.ibb.co/g3JpnLr/About-modal.png" alt="About_modal screenshot" border="0">
+ </div>
       
-      <div align="center">
-      <img src="https://i.ibb.co/g3JpnLr/About-modal.png" alt="About_modal screenshot" border="0">
-      </div>
+  3. **Game over modal**
+      - This modal is designed to be simple, yet colourful, and flashing multicolour text suggests losing the game and trying again isn't all that bad!!
+
+<div align="center">
+<img src="https://i.ibb.co/BftmQCh/Game-over-modal.png" alt="Game_over_modal screenshot" border="0">
+</div>
 
 ### What I'd like to add in the future 'features'
 
