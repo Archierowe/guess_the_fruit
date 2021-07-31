@@ -1,4 +1,5 @@
-
+<h1 align="center">
+   <a href="https://archierowe.github.io/guess_the_fruit/" target="_blank"> <img src="
 
 # Guess the fruit game
 
@@ -135,30 +136,45 @@ The final version of the wireframe can be found:
 
 ## Elements
 
-   * Header:
+   ### Header:
    * This contains the title and main game info and feedback to the player. 
       * About - this is for the parents - gives info about the game and Hear Bear Sensory and also provides links to Hey Bear's website and their YouTube channel.
       * Result/feedback box - this is where the player is told to "Select a fruit" - the obvious position of the message (just above the fruit image panels) tells the player they need to touch one of the panels below. When a player guesses incorrectly a timeout function outputs a message of "Sorry, try again". 
       * Music notes - this 'unmutes' the music so the user can have background music to the game. I decided to mute the music on startup, the player must 'unmute' it. This will bring another functional element into the game - the player must remember to 'turn the music on'.
 
-   * Main:
+   ### Main:
    * This contains the fruit panels/images. These images are used with permission from Hey Bear Sensory and are fruits. A game could be also configured to include vegetables too as that's another key image feature of the Hey Bear brand.
-   ![fruit images](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/fruit_images.png)
+   <div align="center">
+   <img src="https://i.ibb.co/ckSYkTT/Fruit-images.png" alt="Fruit_images" border="0">
+   </div>
 
-   * Footer:
+   ### Footer:
    * This section contains two major elements - scorebox and new game.
       * Scorebox - here, the player can see how many attempts they have left to guess the 'secret fruit' - the number decrements.
       * Best score - here, the player can see how many attempts it took them to guess the 'secret fruit' - the 'best score' is recorded for the remainder of that session or until the player(s) refresh the page.
       * New Game button - to reset the attempts should the user wish to.
 
-   * Modals:
-      * Startup modal - this modal greets the player(s) and gives them very simple instructions on how to play the game...
-      ![Welcome modal on startup](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/welcome_modal.png)
-      * 'game over' modal - this modal - this is 'loseModal' in the code - so it was easy to understand in that context. This modal is a very simple modal - 'Game Over' image and New Game button to get the player back in the game. 
-      ![Lose modal when attempts used up](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/game_over_modal.png)
-      * About modal - this is the modal for parents and anyone interested in knowing more about the game and why it was designed. 
-      * ![About the game modal](https://github.com/Archierowe/guess_the_fruit/blob/master/gifs/about_modal.png)
-
+   ### Modals:
+      1. **Startup modal**
+      - This modal greets the player(s) and gives them very simple instructions on how to play the game...
+   
+<div align="center">
+<img src="https://i.ibb.co/DLDh0zZ/Welcome-modal.png" alt="Welcome_modal screenshot" border="0">
+      </div>
+       
+      2. **'Game over' modal**
+      - This modal - this is 'loseModal' in the code - so it was easy to understand in that context. Designed to be simple yet colourful and flashing multicolour text suggests losing the game and trying again isn't all that bad!
+      
+      <div align="center">
+      <img src="https://i.ibb.co/BftmQCh/Game-over-modal.png" alt="Game_over_modal screenshot" border="0">
+      </div>
+      
+      3. **About modal**
+       - This is the modal for parents and anyone interested in knowing more about the game and why it was designed. 
+      
+      <div align="center">
+      <img src="https://i.ibb.co/g3JpnLr/About-modal.png" alt="About_modal screenshot" border="0">
+      </div>
 
 ### What I'd like to add in the future 'features'
 
