@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="lkajshdkjahsdjashd" />
+    <title>Guess the fruit</title>
+  </head>
+  <body>
+    <header>
+      <!-- Guess the fruit title -->
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col">
+            <h1>Guess the Fruit</h1>
+          </div>
+        </div>
+      </div>
+      <!-- About Modal -->
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col-2">
+            <button type="button" class="btn opBtn" id="opBtn">About</button>
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content-1">
+                  <div class="modal-header">
+                    <h2 class="modal-title multicolortext">
+                      Welcome to Guess the fruit!
+                    </h2>
+                  </div>
+                  <div class="modal-body about-modal">
+                    <p class="about-text">
+                      This game is brought to you in association with
+                      <span
+                        ><a
+                          href="https://www.heybearsensory.com/about"
+                          target="_blank"
+                          >Hey Bear Sensory</a
+                        ></span
+                      >; where super cute and friendly characters promote
+                      happiness, movement, learning, visual tracking, sleep,
+                      relaxation and more! Visit the Hey Bear website for more
+                      details. Also, check out their multi-million times viewed
+                      YouTube Channel!
+                      <span
+                        ><a
+                          href="https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg"
+                          target="_blank"
+                          >Hey Bear Sensory - YouTube</a
+                        ></span
+                      >
+                    </p>
+                    <br />
+                    <p class="about-text d-none d-sm-block">
+                      As the parent, you can be as involved as you like - you
+                      might like to play the game with your child, naming the
+                      fruits, after all encouraging familiarity and fun with
+                      healthy foods is a great thing. There's even a mute
+                      button!
+                    </p>
+                    <p class="about-text">Enjoy, and thanks for playing!</p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="ack">
+                      All Hey Bear Sensory brand images and visuals used with
+                      permission.
+                    </div>
+                    <div>
+                      <img
+                        src="/img/hey_bear_logo.png"
+                        alt="Hey Bear Sensory Logo"
+                        class="bear-logo"
+                      />
+                    </div>
+                    <button
+                      type="button"
+                      class="btn"
+                      id="clBtn"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="result" data-fruit="">Result window</div>
+          </div>
+          <div class="col-2">
+            <div id="mute-button" class="fas fa-volume-up muted"></div>
+            <audio id="myAudio" autoplay loop muted>
+              <source src="/audio/fruit_audio_clip.m4a" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Start game modal on load -->
+      <div class="modal fade" id="startModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>
+                <span class="multicolortext">Welcome to Guess the Fruit!</span>
+              </h2>
+            </div>
+            <div class="modal-body">
+              <h3 class="how-play">How to play...</h3>
+              <br />
+              <p class="how-play-body">Can you guess the secret fruit?</p>
+              <p class="how-play-body">
+                Select a fruit from one of the boxes. Can you find the secret
+                fruit before you run out of attempts?
+              </p>
+              <h2 class="multicolortext">GOOD LUCK!</h2>
+            </div>
+
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn"
+                id="playNow"
+                data-bs-dismiss="modal"
+              >
+                PLAY NOW!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Game win Modal -->
+      <div
+        class="modal fade"
+        id="winnerModal"
+        tabindex="-1"
+        role="dialog"
+        aria-label="winnerModal"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="multicolortext">Well Done - YOU WIN!!</h2>
+            </div>
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-toggle="modal"
+                data-dismiss="modal"
+                data-target="#winnerModal"
+                aria-label="Close"
+              ></button>
+              <video id="winVideo" controls width="100%">
+                <source src="/video/win_movie.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="modal-footer">
+              <button data-bs-dismiss="modal" class="col btn new-1">
+                New Game
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Game over modal -->
+      <div
+        class="modal fade"
+        id="losingModal"
+        tabindex="-1"
+        role="dialog"
+        aria-label="losingModal"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body">
+              <h2>
+                <span class="multicolortext-1 blinking"
+                  >GAME OVER! PLAY AGAIN!!!</span
+                >
+              </h2>
+              <button
+                type="button"
+                class="close"
+                data-toggle="modal"
+                data-dismiss="modal"
+                data-target="#losingModal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-footer">
+              <button data-bs-dismiss="modal" class="col btn new-1">
+                NEW GAME
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fruit images grid (game buttons)-->
+      <div class="Container mt-3">
+        <div class="row animate">
+          <div class="col-4">
+            <input
+              type="image"
+              alt="avocado image"
+              src="/img/avocado.png"
+              class="items"
+              data-fruit="avocado"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              type="image"
+              alt="banana image"
+              src="/img/banana.png"
+              class="items"
+              data-fruit="banana"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              type="image"
+              alt="blueberry image"
+              src="/img/blueberry.png"
+              class="items"
+              data-fruit="blueberry"
+            />
+          </div>
+        </div>
+        <div class="row animate">
+          <div class="col-4">
+            <input
+              type="image"
+              alt="lemon image"
+              src="/img/lemon.png"
+              class="items"
+              data-fruit="lemon"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              type="image"
+              alt="lime image"
+              src="/img/lime.png"
+              class="items"
+              data-fruit="lime"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              type="image"
+              alt="orange image"
+              src="/img/orange.png"
+              class="items"
+              data-fruit="orange"
+            />
+          </div>
+        </div>
+        <div class="row animate">
+          <div class="col-4">
+            <input
+              type="image"
+              alt="pineapple image"
+              src="/img/pineapple.png"
+              class="items"
+              data-fruit="pineapple"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              type="image"
+              alt="raspberry image"
+              src="/img/raspberry.png"
+              class="items"
+              data-fruit="raspberry"
+            />
+          </div>
+          <div class="col-4">
+            <input
+              type="image"
+              alt="strawberry image"
+              src="/img/strawberry.png"
+              class="items"
+              data-fruit="strawberry"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container mt-3">
+        <div class="row btm">
+          <div class="col scorebox">
+            <p class="label-attempts">
+              Guesses left: <span class="score">8</span>
+            </p>
+            <p class="label-highscore">
+              Best score: <span class="highscore">0</span>
+            </p>
+          </div>
+          <button class="col btn new" id="newGame">New Game</button>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

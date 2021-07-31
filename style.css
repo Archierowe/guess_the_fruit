@@ -1,0 +1,623 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto Mono", sans-serif;
+  height: 100vh;
+  background: black;
+}
+
+.btm {
+  justify-content: center;
+}
+
+/* ------------------- Page layout */
+/* Header layout */
+
+/* About button */
+.opBtn {
+  background: #5a5858;
+  color: #eee;
+  border-radius: 10px;
+  border: #eee solid 1px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+/* Result window (select a fruit window) and messages to player */
+.result {
+  font-size: 20px;
+  border: #eee solid 1px;
+  border-radius: 5px;
+  background: #5a5858;
+  color: #eee;
+  /* padding: 20px 5px; */
+  text-align: center;
+}
+
+/* mute button for autoplay music */
+#mute-button {
+  cursor: pointer;
+  z-index: 1;
+  padding: 5px 10px;
+  background: #111;
+  border: #eee solid 1px;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Game title */
+h1 {
+  font-size: 32px;
+  border: #eee solid 1px;
+  color: #eee;
+  border-radius: 10px;
+  background: #5a5858;
+  margin-top: 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+/* MODALS */
+/* ------------------General modal settings */
+
+.modal-header {
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(43, 41, 41);
+}
+
+.close {
+  background-color: rgb(43, 41, 41);
+  border: none;
+}
+
+.modal-footer {
+  background-color: rgb(43, 41, 41);
+  padding: 0;
+  flex-wrap: nowrap;
+}
+
+/* About modal */
+.about-text {
+  font-size: 14px;
+}
+
+.modal-content-1 {
+  background-color: rgb(43, 41, 41);
+}
+
+.ack {
+  color: #eee;
+  font-size: 12px;
+}
+
+.bear-logo {
+  height: 50px;
+  width: 75px;
+  border-radius: 10px;
+}
+
+/* Start game modal */
+h3 {
+  color: #eee;
+}
+
+p {
+  color: #eee;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* Winner Modal */
+.modal-content .modal-body {
+  height: 50vh;
+  background-color: rgb(43, 41, 41);
+}
+
+/* Text for modals */
+.multicolortext {
+  font-size: 45px;
+  background-image: linear-gradient(to right, red, blue, pink, yellow, green);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+.multicolortext-1 {
+  font-size: 58px;
+  justify-content: center;
+  background-image: linear-gradient(to right, red, blue, pink, yellow, green);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+.blinking {
+  animation: blinkingText 1.3s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
+}
+
+/* Player input selectors */
+.Container {
+  display: grid;
+  grid-template-columns: repeat(auto);
+  justify-content: center;
+}
+
+.items {
+  border: #ccc solid 1px;
+  border-radius: 5px;
+  width: 105px;
+  height: 105px;
+  margin: 10px 15px;
+}
+
+.items:hover {
+  border: #eee solid 2px;
+}
+
+/* Animate CSS */
+.animate-active {
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+
+/* Live scores to player */
+.scorebox {
+  background: #5a5858;
+  color: #eee;
+  border: #eee solid 1px;
+  border-radius: 10px;
+  justify-content: center;
+  max-width: 500px;
+  white-space: nowrap;
+}
+
+.label-attempts {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.label-highscore {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* New game buttons */
+/* Win Modal new game button */
+.new-1 {
+  color: #eee;
+  border: #eee solid 1px;
+  text-align: center;
+  justify-content: center;
+  background: #5a5858;
+  font-size: 20px;
+  font-family: inherit;
+  margin: auto 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Start game modal play now button and main game screen new game button */
+.btn {
+  color: #eee;
+  border: #eee solid 1px;
+  text-align: center;
+  justify-content: center;
+  background: #5a5858;
+  font-size: 22px;
+  font-family: inherit;
+  max-width: 500px;
+  margin: 25px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a59f9f;
+}
+
+/* ------------------- Media Queries */
+
+/* Below 1344px (Small desktops) */
+@media (max-width: 85em) {
+  h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .result {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .opBtn {
+    font-size: 20px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+  #mute-button {
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px 10px;
+    background: #111;
+    border: #eee solid 1px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .items {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  p {
+    color: #eee;
+    font-size: 34px;
+    text-align: justify;
+  }
+  .scorebox {
+    margin: 10px;
+  }
+
+  .label-attempts {
+    font-size: 28px;
+  }
+
+  .label-highscore {
+    font-size: 28px;
+  }
+
+  .new {
+    font-size: 28px;
+  }
+
+  .multicolortext {
+    font-size: 60px;
+  }
+
+  .multicolortext-1 {
+    font-size: 95px;
+    text-align: center;
+    background-image: linear-gradient(to right, red, blue, pink, yellow, green);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+  }
+}
+
+/* Below 1200px (Landscape tablets) */
+
+@media (max-width: 75em) {
+  h1 {
+    font-size: 40px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .row {
+    margin-top: 1px;
+  }
+
+  .result {
+    font-size: 30px;
+  }
+
+  .opBtn {
+    font-size: 15px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+  #mute-button {
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px 10px;
+    background: #111;
+    border: #eee solid 1px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .items {
+    height: 125px;
+    width: 125px;
+    margin: 5px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  p {
+    color: #eee;
+    font-size: 30px;
+    text-align: justify;
+  }
+
+  .label-attempts {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .label-highscore {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .new {
+    font-size: 28px;
+  }
+
+  .multicolortext {
+    font-size: 46px;
+  }
+
+  .multicolortext-1 {
+    font-size: 85px;
+    text-align: center;
+    background-image: linear-gradient(to right, red, blue, pink, yellow, green);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+  }
+}
+
+/* Below 944px (Tablets) */
+@media (max-width: 59em) {
+  h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .result {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .opBtn {
+    font-size: 18px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+  #mute-button {
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px 10px;
+    background: #111;
+    border: #eee solid 1px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .items {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+
+  h3 {
+    font-size: 34px;
+  }
+
+  p {
+    color: #eee;
+    font-size: 26px;
+    text-align: justify;
+  }
+
+  .scorebox {
+    margin: 10px;
+  }
+
+  .label-attempts {
+    font-size: 28px;
+  }
+
+  .label-highscore {
+    font-size: 28px;
+  }
+
+  .new {
+    font-size: 28px;
+  }
+
+  .new-1 {
+    font-size: 28px;
+  }
+
+  .multicolortext {
+    font-size: 52px;
+  }
+
+  .multicolortext-1 {
+    font-size: 75px;
+    text-align: center;
+    background-image: linear-gradient(to right, red, blue, pink, yellow, green);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+  }
+}
+
+/* Below 704px (small tablets) */
+@media (max-width: 42em) {
+  h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .result {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .opBtn {
+    font-size: 20px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  #mute-button {
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px 10px;
+    background: #111;
+    border: #eee solid 1px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .items {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+
+  p {
+    color: #eee;
+    font-size: 30px;
+    text-align: justify;
+  }
+
+  .scorebox {
+    margin: 10px;
+  }
+
+  .label-attempts {
+    font-size: 28px;
+  }
+
+  .label-highscore {
+    font-size: 28px;
+  }
+
+  .multicolortext {
+    font-size: 36px;
+  }
+
+  .new {
+    font-size: 28px;
+  }
+}
+
+/* Below 544px (Phones) */
+
+@media (max-width: 34em) {
+  h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 12px;
+  }
+
+  .row {
+    --bs-gutter-x: 1rem;
+  }
+
+  .opBtn {
+    font-size: 10px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .result {
+    font-size: 24px;
+  }
+
+  #mute-button {
+    cursor: pointer;
+    z-index: 1;
+    background: #111;
+    border: #eee solid 1px;
+    color: #fff;
+    border-radius: 4px;
+  }
+
+  .items {
+    height: 100px;
+    width: 100px;
+    margin: 7.5px;
+  }
+
+  p {
+    color: #eee;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .label-attempts {
+    font-size: 20px;
+  }
+
+  .label-highscore {
+    font-size: 20px;
+    margin: 15px;
+  }
+
+  .new {
+    font-size: 20px;
+  }
+
+  .new-1 {
+    font-size: 28px;
+  }
+
+  .multicolortext {
+    font-size: 46px;
+  }
+
+  .multicolortext-1 {
+    font-size: 65px;
+    justify-content: center;
+    background-image: linear-gradient(to right, red, blue, pink, yellow, green);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+  }
+}
