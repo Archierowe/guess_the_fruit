@@ -45,22 +45,13 @@ $("#mute-button").click(function () {
 });
 
 // Modal WIN video
-// $("#winnerModal").on("shown.bs.modal", function () {
-//   $("#myAudio").prop("muted", true);
-//   $("#winVideo")[0].play();
-// });
-// $("#winnerModal").on("hidden.bs.modal", function () {
-//   $("#winVideo")[0].pause();
-//   // $("#myAudio").prop("muted", false);
-// });
-
 $("#winnerModal").on("shown.bs.modal", function () {
   $("#myAudio").prop("muted", true);
   $("#winVideo")[0].play();
 });
 $("#winnerModal").on("hidden.bs.modal", function () {
   $("#winVideo")[0].pause();
-  // $("#myAudio").prop("muted", false);
+  $("#myAudio").prop("muted", false);
 });
 
 // Game logic and reset button
