@@ -6,7 +6,7 @@
 [Play Guess the Fruit now!](https://archierowe.github.io/guess_the_fruit/)
  
 ## Introduction and welcome
-This [game](https://archierowe.github.io/guess_the_fruit/) is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and fun. When he was 6 months old he smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking... What if I could make a fun and accesible game for kids that included these fruits and images? How could I make it fun and entertaining AND educational?
+This [game](https://archierowe.github.io/guess_the_fruit/) is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and fun. When he was 6 months old he smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking... What if I could make a fun and accesible mobile and tablet game for kids that included these fruits and images? How could I make it fun and entertaining AND educational?
 
 [Hey Bear Sensory](https://www.heybearsensory.com/) say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" The very nature of this type of medium; music, colourful images and movement, promotes so much of what is needed for young children and their spatial development. It seemed obvious to me to make something that could harness this and put it into the childs hands. So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula and brand into a game. Hey Bear Sensory has millions of views on their YouTube channel - check them out! [Hey Bear Sensory - YouTube](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg). 
 
@@ -61,10 +61,14 @@ The aim of the visuals is to allow this sensory experience to be be accessed all
 Visuals were designed to be obvious, clean and inviting. Much consideration has been given so that the interactive elements of the game are not impeded by branding and clutter. The game's 'buttons' are intuitive - the essentials are on the screen, however, the user (parents also) can get access to info about the game and Hey Bear Sensory's website and YouTube channel through the About button.
 
 There is something for parents as well as the child, you can turn the music on the main game screen 'OFF' - for when those long car journeys, can seem 'longer' when the same music is repeated and repeated and... well, you get the idea.
+   <br>
+    <div align="center">
+       <img src="https://i.ibb.co/8cwdYrT/Brand-image.png" alt="Brand_image" border="0">
+   </div>
 
 ## Goals of this project
 
-The goal of this project is to provide a game that is fun, visually striking and child friendly. It should be easy to understand and lot's of fun for all who play.  The target audience is children between 18 months to...whenever they might feel too old for it (never) and also, parents.
+The goal of this project is to provide a mobile and tablet game that is fun, visually striking and child friendly. It should be easy to understand and lot's of fun for all who play.  The target audience is children between 18 months to...whenever they might feel too old for it (never) and also, parents.
 
 
 #### Player goals:
@@ -269,17 +273,25 @@ This is a fluid concept and one that could be added to as the game or whatever b
    * [W3C Validator](https://validator.w3.org/):
       * W3C Validator was used to validate HTML and CSS code.  
 
-
 ## Testing
 
-Please see the separate testing.md file for details on testing nformation pertaining to this game
+Please see the separate [testing.md](testing.md) file for User Stories testing.
+   
+### Validator testing
 
+#### HTML
+   - No major errors returned through [HTML validation](https://validator.w3.org/nu/#textarea) however, it threw an error for video width on the win game modal (Bad value 100% for attribute width on element video: Expected a digit but saw % instead). I attempted to adjust on recommendation, however when changing the 100% to 100, the video shrank and did not fill container. I have, therefore left it as is until a suitable fix is found. I have checked across devices and the video width appears to be correct with current code. 
+   
+#### CSS
+   - 6 minor text area errors were returned pertaining to the multicolortext and mutlicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
+   
+#### JavaScript
+   - No errors were found when code was validated through [JSHint](https://jshint.com/). However, it threw up warnings but forthis project nothing that hinders JS from correctly executing. 
 
 #### Known bugs
 
 -   On some mobile devices and desktop sizes the layout of the screen requires a scroll to see the scorebox and new game button.
 -   On some desktops, the site will not fill the screen,however, as already explained this site is intended primarily for use on mobile devices and tablets - the intention is for the game to be handheld. 
-
 
 ## Deployment 
 
