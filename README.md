@@ -257,7 +257,7 @@ This is a fluid concept and one that could be added to as the game or whatever b
    * [iMovie](https://www.apple.com/uk/imovie/)
       * IMovie was used to edit the videos and music from original sources that belong to [Hey Bear Sensory](https://www.heybearsensory.com/)
    * [JSHint](https://jshint.com/)
-      *Used JSHint to validate JavaScript code.
+      * Used JSHint to validate JavaScript code.
    * [JQuery](https://jquery.com/):
       * JQuery has been used to simplify aspects of JS code for some of the modals, the mute button and animate CSS.
    * [Responsive Viewer](https://http://ami.responsivedesign.is):
