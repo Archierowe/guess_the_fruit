@@ -98,6 +98,9 @@ What would parent's like in a game?
 
 
 ## Design choices
+   
+#### Design focus
+   - The design focus is intended for mobile devices and tablets - this is because the idea of this game is to be 'handled' by the child, these devices give a unique ability for the child to have more interactivity with the experience - before now, Hey Bear Sensory was viewed on a television screen or monitor - this is the first time that it has been been in the hands of the child. 
 
 The game has a friendly family-feel design. There is an emphasis on design choices that reflect the desire for the images and visuals to speak for themselves and also to allow for the game to be easily accesible with minimal clutter. 
 
@@ -131,8 +134,7 @@ The final version of the wireframe can be found:
 
 ## FEATURES
 ### Existing features
-
-* Responsive on all screen sizes - but primarily designed for tablets.
+* Responsive on all screen sizes - but primarily designed for mobile devices and tablets.
 * Interactive elements.
 
 
