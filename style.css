@@ -403,13 +403,13 @@ p {
 /* Below 944px (Tablets) */
 @media (max-width: 59em) {
   h1 {
-    font-size: 40px;
+    font-size: 44px;
     margin-top: 30px;
     padding: 20px;
   }
 
   .result {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 10px;
   }
 
@@ -490,7 +490,7 @@ p {
   }
 
   .result {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 10px;
   }
 
