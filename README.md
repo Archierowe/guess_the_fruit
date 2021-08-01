@@ -5,13 +5,15 @@
 # Guess the Fruit 
 
 ## Introduction and welcome
-This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and uplifting. When whe was 6 months old he always smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking... What if I could make a fun and accesible game for kids that included these fruits and images? It would not only be fun and entertaining but educational.
+This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and fun. When he was 6 months old he smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking... What if I could make a fun and accesible game for kids that included these fruits and images? How could I make it fun and entertaining AND educational?
 
-[Hey Bear Sensory](https://www.heybearsensory.com/) say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula into a game. Hey Bear Sensory has millions of views on their YouTube channel - check them out! [Hey Bear Sensory - YouTube](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg). 
+[Hey Bear Sensory](https://www.heybearsensory.com/) say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" The very nature of the type of medium; music, colourful images and movement promotes so much of what is needed for young children and their spatial development, it seemed obvious to me to make something that couls harness this but put it into the childs hands. So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula and brand into a game. Hey Bear Sensory has millions of views on their YouTube channel - check them out! [Hey Bear Sensory - YouTube](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg). 
 
-I am a teacher and having worked with children for years (and having my own child), I can vouch that when sensory experiences are linked to learning, they can be powerful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically; where having fun and learning about healthy foods is brought together and this is the first time that Hey Bear Sensory can be in the hands of the child (and parents) and not just, 'on the telly'.
+I am a teacher and having worked with children for years (and having my own child), I can vouch that when sensory experiences are linked to learning, they can be powerful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically. This game is about having fun, making links between pressing buttons, making choices and also gives the opportunity to learn about healthy foods! This is all brought together in one place and this is the first time that Hey Bear Sensory can be in the hands of the child (and parents), not just, 'on the telly'.
 
-I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning can aid with visual tracking, memory and concentration, even word association (should parents sit and explain each fruit by name for example - parents, get creative with this game, get involved!). So, add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... 
+I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning can aid with visual tracking, memory and concentration, even word association (should parents sit and explain each fruit by name for example - parents...get creative with this game and get involved!). 
+   
+So, add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... 
 
 Have fun. (multicoloured text?)
 
@@ -235,11 +237,17 @@ The W3C Markup Validator and W3C CSS Validator sites were used to validate each 
 
 This project was developed using Visual Studio Code and the IDE, commits to git and pushes were done using the inbuilt function within Visual Studio Code.
 
-To deploy Guess the Fruit from its GitHub repository, the follow steps were taken:
+To deploy Guess the Fruit from its GitHub repository, take the following steps:
 
-1. Logged into GitHub.
-2. From the list of repo's onscreen, select Archierowe/guess_the_fruit
-3. From menu items near the top of the page, select settings
+1. Log into GitHub.
+2. From the list of repositories onscreen, please select Archierowe/guess_the_fruit.
+3. From menu items near the top of the page, select the settings tab.
+4. Scroll most of the way down the settings page and select GitHib Pages - click on the link.
+5. In the GitHub Pages section, select the main branch from the source tab and then click save.
+6. This will then deploy Guess the Fruit.
+7. Select the link immediately above source section to view the site!
+   
+
 
 
 
