@@ -32,7 +32,7 @@ So, add Hey Bear's colour, vibrant music and images with a rewarding game experi
   * [Design choices](#design-choices)
       - [Design focus](#design-focus)
   * [Wireframes](#wireframes)
-  * [FEATURES](#features)
+  * [Features](#features)
     + [Existing features](#existing-features)
     + [Header](#header)
     + [Main](#main)
@@ -144,6 +144,10 @@ What would parents like in a game?
 * Interactive buttons
    * Buttons were positioned for mobile device and tablets primarily, therefore, the positioning of the image 'buttons' and the header elements was important. I took a decision to switch the ordering of the header buttons on mobile so that a user, (if using the mobile device in one hand for playing and are right handed, as is most often the case), wouldn't accidently hit the mute button. This is the reason that the result window switches and the buttons are shifted to the left on mobile. 
    * the main image buttons are central and the largest part of the visual make-up - the animation bounceIn encourages users interactivity with the buttons, making it easy for the user to understand that these buttons are interactive.
+   <br>
+    <div align="center">
+   <img src="https://media.giphy.com/media/BKeqeH3BNLc06SzgXE/giphy.gif" alt="Fruit_images" border="0">
+   </div>
 
 * Colour Scheme
     * Background colour of the main page is black - to allow for images to be striking and bold. Whilst the striking visuals are included as part of the design, the desire was not to overwhelm the user, a muted background allows for the fruit images to be seen clearly and makes it obvious as to the function of the panels the images are contained within.
@@ -158,9 +162,13 @@ What would parents like in a game?
     * The images picked were intentional - the fruit images are smiling - so that the child is greeted with happy faces from the moment they engage with the game. 
     * Images used are vibrant and colourful - images are recognisable by children who have seen Hey Bear Sensory on YouTube. The images are from several of the videos developed by the brand and will be recognisable by many children.
     * Even if the child playing this game has not seen Hey Bear Sensory videos, the fruits are obvious and friendly!
+   <br>
+   <div align="center">
+      <img src="https://i.ibb.co/yBWYKBY/Main-screen.png" alt="Main_screen" border="0">
+   </div>
 
 * Styling
-    * !Important - The modals were picked as a way of giving the user the info they needed via the function of either winning the game or when all attempts to find the 'secret fruit' are depleted and they need to 'start-over'. Modals were picked as they 'interrupt' the game only when necessary - not ruining the flow of the game when being played. 
+    * !Important - The modals (see below for images of modals) were picked as a way of giving the user the info they needed via the function of either winning the game or when all attempts to find the 'secret fruit' are depleted and they need to 'start-over'. Modals were picked as they 'interrupt' the game only when necessary - not ruining the flow of the game when being played. 
     * (On desktop) Hover effects are used on buttons to allow for depth on the webpage. 
 
 ## Wireframes
@@ -171,7 +179,7 @@ The final version of the wireframe can be found:
 * [here]
 
 
-## FEATURES
+## Features
 ### Existing features
 * Responsive on all screen sizes - but primarily designed for mobile devices and tablets.
 * Interactive elements.
@@ -236,20 +244,26 @@ This is a fluid concept and one that could be added to as the game or whatever b
       * Balsamiq was used to create the wireframes during the design stages of this project.
    * [Bootstrap](https://getbootstrap.com/):
       * The project uses Bootstrap to simplify aspects of the layout (such as the grid template for the images).
-   * [Font Awesome](https://fontawesome.com)
+   * [Font Awesome](https://fontawesome.com):
       * Font Awesome was used for icons on the site.
+   * [GIPHY](https://giphy.com/):
+      * Used GIPHY to create GIF video for README.MD.
    * [Google Fonts](https://fonts.google.com/):
       * Google Fonts used to style the fonts site-wide.
    * [GitHub](https://github.com/):
       * All code stored and pushed to GitHub for this project.
-   * [iMovie](https://www.apple.com/uk/imovie/)
+   * [ImbGG](https://imgbb.com/):
+      * ImgBB used to store some images for the README.MD.
+   * [iMovie](https://www.apple.com/uk/imovie/):
       * IMovie was used to edit the videos and music from original sources that belong to [Hey Bear Sensory](https://www.heybearsensory.com/)
+   * [JSHint](https://jshint.com/):
+      * Used JSHint to validate JavaScript code.
    * [JQuery](https://jquery.com/):
       * JQuery has been used to simplify aspects of JS code for some of the modals, the mute button and animate CSS.
    * [Responsive Viewer](https://http://ami.responsivedesign.is):
       * Used to check for responsiveness across screen sizes.
    * [Visual Studio Code](https://code.visualstudio.com/):
-      Developer used Visual Studio Code for their IDE while building this website.
+      * Developer used Visual Studio Code for their IDE while building this website.
    * [W3 Schools](https://www.w3schools.com/):
       * W3 schools used for many ideas and snippets that have been tried out, modified and even discarded!
    * [W3C Validator](https://validator.w3.org/):
