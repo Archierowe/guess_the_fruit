@@ -32,7 +32,7 @@ So, add Hey Bear's colour, vibrant music and images with a rewarding game experi
   * [Design choices](#design-choices)
       - [Design focus](#design-focus)
   * [Wireframes](#wireframes)
-  * [FEATURES](#features)
+  * [Features](#features)
     + [Existing features](#existing-features)
     + [Header](#header)
     + [Main](#main)
@@ -171,7 +171,7 @@ The final version of the wireframe can be found:
 * [here]
 
 
-## FEATURES
+## Features
 ### Existing features
 * Responsive on all screen sizes - but primarily designed for mobile devices and tablets.
 * Interactive elements.
