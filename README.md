@@ -244,19 +244,19 @@ This is a fluid concept and one that could be added to as the game or whatever b
       * Balsamiq was used to create the wireframes during the design stages of this project.
    * [Bootstrap](https://getbootstrap.com/):
       * The project uses Bootstrap to simplify aspects of the layout (such as the grid template for the images).
-   * [Font Awesome](https://fontawesome.com)
+   * [Font Awesome](https://fontawesome.com):
       * Font Awesome was used for icons on the site.
-   * [GIPHY](https://giphy.com/)
+   * [GIPHY](https://giphy.com/):
       * Used GIPHY to create GIF video for README.MD.
    * [Google Fonts](https://fonts.google.com/):
       * Google Fonts used to style the fonts site-wide.
    * [GitHub](https://github.com/):
       * All code stored and pushed to GitHub for this project.
-   * [ImbGG](https://imgbb.com/)
+   * [ImbGG](https://imgbb.com/):
       * ImgBB used to store some images for the README.MD.
-   * [iMovie](https://www.apple.com/uk/imovie/)
+   * [iMovie](https://www.apple.com/uk/imovie/):
       * IMovie was used to edit the videos and music from original sources that belong to [Hey Bear Sensory](https://www.heybearsensory.com/)
-   * [JSHint](https://jshint.com/)
+   * [JSHint](https://jshint.com/):
       * Used JSHint to validate JavaScript code.
    * [JQuery](https://jquery.com/):
       * JQuery has been used to simplify aspects of JS code for some of the modals, the mute button and animate CSS.
