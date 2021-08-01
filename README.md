@@ -283,10 +283,10 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
    - No major errors returned through [HTML validation](https://validator.w3.org/nu/#textarea) however, it threw an error for video width on the win game modal (Bad value 100% for attribute width on element video: Expected a digit but saw % instead). I attempted to adjust on recommendation, however when changing the 100% to 100, the video shrank and did not fill container. I have, therefore left it as is until a suitable fix is found. I have checked across devices and the video width appears to be correct with current code. 
    
 #### CSS
-   - 6 minor text area errors were returned pertaining to the multicolortext and mutlicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
+   - 6 minor text area errors were returned pertaining to the multicolortext and mutlicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator#errors) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
    
 #### JavaScript
-   - No errors were found when code was validated through [JSHint](https://jshint.com/). However, it threw up warnings but forthis project nothing that hinders JS from correctly executing. 
+   - No errors were found when code was validated through [JSHint](https://jshint.com/). However, it threw up warnings but forthis project nothing that hinders JS from correctly executing. JSHint did not provide link to validated code.
 
 #### Known bugs
 
@@ -307,6 +307,19 @@ To deploy Guess the Fruit from its [GitHub repository](https://github.com/Archie
 6. This will then deploy **Guess the Fruit**.
 7. Select the **link** immediately above **source** section to view the site!
    
+ ### Local deployment
+   
+Cloning this project from GitHub - take the following steps:
+   
+1. Use this link to access the [Guess the Fruit repository](https://github.com/Archierowe/guess_the_fruit).
+2. Next to the green Gitpod button you will see **code**, click on this and copy the clone URL.
+3. Open Git Bash.
+4. Select the directory you wish the cloned directory to opened in.
+5. Type 'git clone', then paste the copied URL from step 2 above.
+6. Press enter to create the clone.
+7. Voila!
+   
+Should you require further info on how to do this in GitHub, then please click [here](https://help.github.com/en/articles/cloning-a-repository).
    
 ## Credits
 
