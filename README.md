@@ -283,7 +283,7 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
    - No major errors returned through [HTML validation](https://validator.w3.org/nu/#textarea) however, it threw an error for video width on the win game modal (Bad value 100% for attribute width on element video: Expected a digit but saw % instead). I attempted to adjust on recommendation, however when changing the 100% to 100, the video shrank and did not fill container. I have, therefore left it as is until a suitable fix is found. I have checked across devices and the video width appears to be correct with current code. 
    
 #### CSS
-   - 6 minor textarea errors were returned pertaining to the multicolortext and mutlicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
+   - 6 minor text area errors were returned pertaining to the multicolortext and mutlicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
    
 #### JavaScript
    - No errors were found when code was validated through [JSHint](https://jshint.com/). However, it threw up warnings but forthis project nothing that hinders JS from correctly executing. 
