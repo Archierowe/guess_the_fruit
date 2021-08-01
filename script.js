@@ -51,7 +51,7 @@ $("#winnerModal").on("shown.bs.modal", function () {
 });
 $("#winnerModal").on("hidden.bs.modal", function () {
   $("#winVideo")[0].pause();
-  $("#myAudio").prop("muted", false);
+  // $("#myAudio").prop("muted", false);
 });
 
 // Game logic and reset button
