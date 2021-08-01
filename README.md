@@ -124,7 +124,7 @@ Parents have a tough job finding aspects of entertainment that are not 'wasteful
 
 #### Parent goals: What do parent goals look like?
 
-What would parent's like in a game?
+What would parents like in a game?
 
 -   Developmental value.
 -   Is the game accesible?
