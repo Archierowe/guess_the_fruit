@@ -144,6 +144,7 @@ What would parents like in a game?
 * Interactive buttons
    * Buttons were positioned for mobile device and tablets primarily, therefore, the positioning of the image 'buttons' and the header elements was important. I took a decision to switch the ordering of the header buttons on mobile so that a user, (if using the mobile device in one hand for playing and are right handed, as is most often the case), wouldn't accidently hit the mute button. This is the reason that the result window switches and the buttons are shifted to the left on mobile. 
    * the main image buttons are central and the largest part of the visual make-up - the animation bounceIn encourages users interactivity with the buttons, making it easy for the user to understand that these buttons are interactive.
+   <br>
     <div align="center">
    <img src="https://media.giphy.com/media/BKeqeH3BNLc06SzgXE/giphy.gif" alt="Fruit_images" border="0">
    </div>
@@ -161,7 +162,7 @@ What would parents like in a game?
     * The images picked were intentional - the fruit images are smiling - so that the child is greeted with happy faces from the moment they engage with the game. 
     * Images used are vibrant and colourful - images are recognisable by children who have seen Hey Bear Sensory on YouTube. The images are from several of the videos developed by the brand and will be recognisable by many children.
     * Even if the child playing this game has not seen Hey Bear Sensory videos, the fruits are obvious and friendly!
-   
+   <br>
    <div align="center">
       <img src="https://i.ibb.co/yBWYKBY/Main-screen.png" alt="Main_screen" border="0">
    </div>
