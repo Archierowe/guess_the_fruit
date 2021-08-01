@@ -1,15 +1,12 @@
 <h1 align="center">
    <a href="https://archierowe.github.io/guess_the_fruit/" target="_blank"> <img src="https://i.ibb.co/bPgQf0F/Welcome-to-GTF.png" alt="Welcome to: Guess the Fruit" border="0">
       </h1>     
-<div align="center">   
-[Play now](https://archierowe.github.io/guess_the_fruit/)
-</div>   
-
    
 # Guess the Fruit 
+[Play Guess the Fruit now!](https://archierowe.github.io/guess_the_fruit/)
  
 ## Introduction and welcome
-This game is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and fun. When he was 6 months old he smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking... What if I could make a fun and accesible game for kids that included these fruits and images? How could I make it fun and entertaining AND educational?
+This [game](https://archierowe.github.io/guess_the_fruit/) is for my son, Eben. He loves music and in his early months he would only seem to settle to one particular music video on YouTube - it was by a channel called Hey Bear Sensory (recommended to me by a primary school teacher friend). My son loves the images (dancing fruit) and the music, which is always upbeat and fun. When he was 6 months old he smiled and laughed as he watched strawberry's and blueberry's dancing to music. This got me thinking... What if I could make a fun and accesible game for kids that included these fruits and images? How could I make it fun and entertaining AND educational?
 
 [Hey Bear Sensory](https://www.heybearsensory.com/) say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" The very nature of this type of medium; music, colourful images and movement, promotes so much of what is needed for young children and their spatial development. It seemed obvious to me to make something that could harness this and put it into the childs hands. So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula and brand into a game. Hey Bear Sensory has millions of views on their YouTube channel - check them out! [Hey Bear Sensory - YouTube](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg). 
 
@@ -19,7 +16,7 @@ I believe that this game provides a unique sensory experience, linking Hey Bear'
    
 So, add Hey Bear's colour, vibrant music and images with a rewarding game experience and you have a winning formula... 
 
-Have fun. (multicoloured text?)
+**Have fun!**
 
    ## Contents table
 - [Guess the Fruit](#guess-the-fruit)
