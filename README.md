@@ -263,7 +263,7 @@ This is a fluid concept and one that could be added to as the game or whatever b
    * [Responsive Viewer](https://http://ami.responsivedesign.is):
       * Used to check for responsiveness across screen sizes.
    * [Visual Studio Code](https://code.visualstudio.com/):
-      Developer used Visual Studio Code for their IDE while building this website.
+      * Developer used Visual Studio Code for their IDE while building this website.
    * [W3 Schools](https://www.w3schools.com/):
       * W3 schools used for many ideas and snippets that have been tried out, modified and even discarded!
    * [W3C Validator](https://validator.w3.org/):
