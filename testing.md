@@ -53,3 +53,48 @@ Working through the user stories section of the [README.md](README.md)
 
 - Parents can reset the game at anytime via refrwshing the page and also a new game button.
 - Parents are able to mute the game and control the volume via the main volume output controls for whatever device they are using.
+
+## Manual testing
+
+A detailed account follows of the testing done on mobile devices and tablets (the primary intended device use).
+
+The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev tools simulators on portrait mode (intended orientation for the game to allow for all elements to be intuitively accessed by the user). Tablets 768px (portrait) and mobile devices 576px and below (portrait).
+
+1. **Game start/session start modal:**
+
+- The modal fits nicely on tablets and mobile devices.
+- Easily readable and colours really stand out.
+- The play now button is easily seen and is nicely responsive.
+- Once the play noew button is pressed the modal is closed and the main game buttons animate nicely to indicate game start.
+
+2. **Main screen:**
+
+- Confirmed that on mobiles and tablets, the main game screen fits very nicely and is vibrant and colourful. All elements are in place - the game buttons (fruits) display very nicely and fit well, media queries working nicely to shrink where necessary.
+
+**Header elements**
+
+- On mobile, the header elements (about button, results window and the mute button) push nicely to the left - with the mute and about buttons reordering to acomodate for right handed users (most common) - to discourage the mute button being pressed.
+- On tablet the header elements display nicely and in original order of: about button, results window and mute button.
+- Mute button/unmute button works nicely and provides the game with a 'theme tune'.
+- the result window presents the user with basic information - 'select a fruit' - displays nicely on both tablets and mobile devices.
+- About button - launches 'about modal'. Working as expected:
+- About modal on tablets: Confirmed responsiveness, extra text on tablets with parent instructions (more likely that parents will be sitting with a child on tablet so more info provided for parents, with some additional instructions).
+- About modal on mobile: Responsiveness also confirmed. Extra text provided to parents removed on mobile to allow for the about modal to display and not shrink too much or require extra small font.
+
+**Main game buttons, scorebox and new game button**
+
+- When the player presses the main game buttons the guesses left decrements accordingly.
+- New game button resets the guesses left, working as expected.
+- Confirmed that when a player wins the game the Best Score keeps the remaining attempts locked so the player knows how many attempts they had left - can they beat the score?!
+
+3. **Other modals**
+
+**Game win modal**
+
+- When player wins, the 'Game win' modal appears and interrupts the game with a rewarding video! Confirmed that it fires and looks great on tablets and also mobile devices.
+- New game button works and resets the guesses left. Does not interfere with Best score.
+
+**Game over modal**
+
+- When all attempts have been exhausted, the game over modal appears.
+- flashing Game Over Play Again appears.
