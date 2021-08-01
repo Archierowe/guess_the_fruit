@@ -118,7 +118,7 @@ Parents have a tough job finding aspects of entertainment that are not 'wasteful
 -   A highscore is also recorded for that play session.
 
 
-#### Parent goals: What do parent goals look like?
+#### Parent goals: 
 
 What would parents like in a game?
 
