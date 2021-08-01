@@ -21,6 +21,7 @@ So, add Hey Bear's colour, vibrant music and images with a rewarding game experi
 
 Have fun. (multicoloured text?)
 
+   ## Contents table
 - [Guess the Fruit](#guess-the-fruit)
   * [Introduction and welcome](#introduction-and-welcome)
   * [UX](#ux)
