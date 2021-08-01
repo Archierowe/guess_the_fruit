@@ -61,6 +61,10 @@ The aim of the visuals is to allow this sensory experience to be be accessed all
 Visuals were designed to be obvious, clean and inviting. Much consideration has been given so that the interactive elements of the game are not impeded by branding and clutter. The game's 'buttons' are intuitive - the essentials are on the screen, however, the user (parents also) can get access to info about the game and Hey Bear Sensory's website and YouTube channel through the About button.
 
 There is something for parents as well as the child, you can turn the music on the main game screen 'OFF' - for when those long car journeys, can seem 'longer' when the same music is repeated and repeated and... well, you get the idea.
+   <br>
+    <div align="center">
+       <img src="https://i.ibb.co/8cwdYrT/Brand-image.png" alt="Brand_image" border="0">
+   </div>
 
 ## Goals of this project
 
