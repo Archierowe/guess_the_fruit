@@ -35,12 +35,12 @@ const resultMessage = function (message) {
 $("#mute-button").click(function () {
   if ($("#myAudio").prop("muted")) {
     $("#myAudio").prop("muted", false);
-    $(this).removeClass("fas fa-volume-up");
-    $(this).addClass("fas fa-volume-mute");
-  } else {
-    $("#myAudio").prop("muted", true);
     $(this).removeClass("fas fa-volume-mute");
     $(this).addClass("fas fa-volume-up");
+  } else {
+    $("#myAudio").prop("muted", true);
+    $(this).removeClass("fas fa-volume-up");
+    $(this).addClass("fas fa-volume-mute");
   }
 });
 
