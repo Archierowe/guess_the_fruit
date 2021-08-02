@@ -22,7 +22,7 @@ $("#playNow").click(function (e) {
 });
 
 // Animate css when new game button clicked
-$("#newGame").click(function () {
+$("#newGame").click(function (e) {
   $(".animate").toggleClass("animate-active");
 });
 
@@ -51,7 +51,7 @@ $("#winnerModal").on("shown.bs.modal", function () {
 });
 $("#winnerModal").on("hidden.bs.modal", function () {
   $("#winVideo")[0].pause();
-  $("#myAudio").prop("muted", false);
+  // $("#myAudio").prop("muted", false);
 });
 
 // Game logic and reset button
