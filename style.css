@@ -85,6 +85,10 @@ h1 {
   flex-wrap: nowrap;
 }
 
+.modal-dialog {
+  pointer-events: all;
+}
+
 /* About modal */
 .about-text {
   font-size: 14px;
