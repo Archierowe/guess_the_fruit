@@ -309,7 +309,7 @@ To deploy Guess the Fruit from its [GitHub repository](https://github.com/Archie
    
  ### Local deployment
    
-Cloning this project from GitHub - take the following steps:
+Cloning this project from GitHub - take the following steps (to see this on GitHub's site click [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)):
    
 1. Use this link to access the [Guess the Fruit repository](https://github.com/Archierowe/guess_the_fruit).
 2. Next to the green Gitpod button you will see **code**, click on this and copy the clone URL.
