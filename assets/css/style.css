@@ -27,7 +27,7 @@ body {
   border-radius: 10px;
   border: #eee solid 1px;
   padding: 5px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /* Result window (select a fruit window) and messages to player */
@@ -263,7 +263,7 @@ p {
   }
 
   .opBtn {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .about-text {
@@ -418,7 +418,7 @@ p {
   }
 
   .opBtn {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .about-text {
@@ -499,7 +499,7 @@ p {
   }
 
   .opBtn {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .about-text {
