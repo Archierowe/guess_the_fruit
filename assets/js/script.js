@@ -57,7 +57,7 @@ $("#winnerModal").on("hidden.bs.modal", function () {
 // Game logic and reset button
 let fruits, result, highscore, score;
 
-let reset = function (scoreToKeep) {
+let reset = function (event, scoreToKeep) {
   fruits = [];
   result = document.querySelector(".result");
   score = 8;
@@ -100,7 +100,7 @@ document.querySelectorAll("input.items").forEach(function (fruit) {
         highscore = score;
         document.querySelector(".highscore").textContent = highscore;
       } else {
-        reset(highscore);
+        reset(null, highscore);
       }
 
       // if player guesses incorrectly
