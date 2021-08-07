@@ -31,6 +31,7 @@ const resultMessage = function (message) {
   document.querySelector(".result").textContent = message;
 };
 
+// Modified code from Saeed Salam - video mute/unmute button - (https://codepen.io/saeedsalam/pen/WNerqrY)
 // Mute button control showing mute and unmute funtions
 $("#mute-button").click(function () {
   if ($("#myAudio").prop("muted")) {
@@ -102,6 +103,9 @@ document.querySelectorAll("input.items").forEach(function (fruit) {
       } else {
         reset(null, highscore);
       }
+      // Parent function code below - inspired by in posts https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
+
+      // * Parent function info was inspired by code from these posts (https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
 
       // if player guesses incorrectly
     } else if (

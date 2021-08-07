@@ -146,6 +146,7 @@ p {
   -moz-background-clip: text;
 }
 
+/* Modified code below - inspired by [HTML Online](https://html-online.com/articles/blinking-text-css-animation/) */
 .blinking {
   animation: blinkingText 1.3s infinite;
 }
