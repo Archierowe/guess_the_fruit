@@ -177,10 +177,10 @@ What would parents like in a game?
 
 ## Wireframes
 
-Wireframes were created for mobile, tablet and desktop using Balsamiq during the scope plane part of the design process for this project.
+Wireframes were created for mobile, tablet and desktop using [Balsamiq](https://balsamiq.com/wireframes/) during the scope pane design process of this project.
 
-The final version of the wireframe can be found:
-* [here]
+The final version of the wireframes can be found here
+* [Guess the Fruit wireframes](testing.md)
 
 
 ## Features
@@ -286,7 +286,7 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
    - 6 minor text area errors were returned pertaining to the multicolortext and mutlicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator#errors) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
    
 #### JavaScript
-   - No errors were found when code was validated through [JSHint](https://jshint.com/). However, it threw up warnings but forthis project nothing that hinders JS from correctly executing. JSHint did not provide link to validated code.
+   - No errors were found when code was validated through [JSHint](https://jshint.com/). It threw up warnings but, for this project, nothing that hinders JS from correctly executing. JSHint did not provide link to any validated code.
 
 #### Known bugs
 
@@ -341,14 +341,15 @@ Should you require further info on how to do this in GitHub, then please click [
 * Parent function info was inspired by code from these posts [Stack Overflow](https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
 * Code (which I modified in JQuery) for animation bounce on the main game panels was from [Animate CSS](https://animate.style/)
 * Modified some code for flashing/blinking text for the 'Game Over' modal [HTML Online](https://html-online.com/articles/blinking-text-css-animation/)
-* Code for the Highscore function came from studying this for a good while...[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#the_event_listener_callback)
+* The Highscore function was inspired by studies from this page [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#the_event_listener_callback)
 
 
 ## Acknowledgements
--   My biggest inspiration, my son Eben - this game is for you.
+-   My biggest inspiration, Eben - this game is for you.
+-   My wife, for continually supporting and encouraging me, thank you x
 -   Huge thanks go to Wayne and Lucie at Hey Bear Sensory for allowing me the use of their brand and images for the purpose of this project [Hey Bear Sensory](https://www.heybearsensory.com/)
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement.
--   My wife, for continually supporting and encouraging me, thank you x
+
 
    
 -   All content included in this website is intended solely for educational purposes by the developer. 
