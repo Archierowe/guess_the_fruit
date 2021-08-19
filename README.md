@@ -340,6 +340,7 @@ Should you require further info on how to do this in GitHub, then please click [
 * Audio file for Win game modal video sourced from YouTube free music library - track title: [Diskofunque by Francis Preve](https://www.youtube.com/watch?v=1gbjn_YYvas)
 
 ### Code
+* I did all I could to keep the code DRY - 'do not repeat' - became a challenge!
 * Various sections of my code were inspired by many many Stack Overflow posts which led me to try out various things in order to understand what I was trying to achieve. Some examples are [How to open a bootstrap modal using JQuery](https://stackoverflow.com/questions/13183630/how-to-open-a-bootstrap-modal-window-using-jquery) and [how to add an avent after modal is closed](https://stackoverflow.com/questions/14840870/how-to-add-an-event-after-close-the-modal-window/26934034) which allowed me to figure out some JQuery code I had no knowledge of before. This led me to figuring out how to add a mute button in JQuery and other neat features I would have perhaps given up on had I not ventured into the fun of JQuery! [Codepen.io](https://codepen.io/saeedsalam/pen/WNerqrY) Code from Saeed Salam - video mute/unmute button - modified by me for this project - many thanks! 
 * SetTimeout function code was inspired by [W3Schools](https://www.w3schools.com/js/js_timing.asp)
 * Parent function info was inspired by code from these posts [Stack Overflow](https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
