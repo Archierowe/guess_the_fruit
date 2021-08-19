@@ -96,6 +96,7 @@ document.querySelectorAll("input.items").forEach(function (fruit) {
       resultMessage("");
       $("#\\winnerModal").modal("show");
 
+      // The Highscore function below was inspired by studies from this page [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#the_event_listener_callback)
       // Adjusts highscore
       if (score > highscore) {
         highscore = score;
@@ -103,9 +104,8 @@ document.querySelectorAll("input.items").forEach(function (fruit) {
       } else {
         reset(null, highscore);
       }
-      // Parent function code below - inspired by in posts https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
 
-      // * Parent function info was inspired by code from these posts (https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
+      // Parent function info was inspired by code from these posts (https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
 
       // if player guesses incorrectly
     } else if (
