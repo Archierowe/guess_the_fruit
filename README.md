@@ -357,7 +357,7 @@ Should you require further info on how to do this in GitHub, then please click [
 ## Acknowledgements
 -   My biggest inspiration, Eben - this game is for you.
 -   My wife, for continually supporting and encouraging me, thank you x
--   Huge thanks go to Wayne and Lucie at Hey Bear Sensory for allowing me the use of their brand and images for the purpose of this project [Hey Bear Sensory](https://www.heybearsensory.com/)
+-   Huge thanks go to Wayne and Lucie at [Hey Bear Sensory](https://www.heybearsensory.com/) for allowing me the use of their brand and images for the purpose of this project.
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement.
 
 
