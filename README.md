@@ -180,7 +180,7 @@ What would parents like in a game?
 Wireframes were created for mobile, tablet and desktop using [Balsamiq](https://balsamiq.com/wireframes/) during the scope pane design process of this project.
 
 The final version of the wireframes can be found here
-* [Guess the Fruit wireframes](guess_the_fruit.pdf)
+* [Guess the Fruit wireframes](https://github.com/Archierowe/guess_the_fruit/blob/main/assets/wireframe/guess_the_fruit.pdf)
 
 
 ## Features
