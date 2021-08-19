@@ -288,8 +288,9 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
 #### JavaScript
    - No errors were found when code was validated through [JSHint](https://jshint.com/). It threw up warnings but, for this project, nothing that hinders JS from correctly executing. JSHint did not provide link to any validated code.
 
-#### Known bugs
+#### Known bugs and fixes
 
+#### Known bugs
 -   On some mobile devices and desktop sizes the layout of the screen requires a scroll to see the scorebox and new game button.
 -   On some desktops, the site will not fill the screen, however, as already explained this site is intended primarily for use on mobile devices and tablets - the intention is for the game to be handheld. 
 -   Some features are working/not working in some browsers:
@@ -297,6 +298,9 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
                   Win game modal video autoplay does not deploy on mobile but it does on desktop.
       * Firefox:  Win game modal video autoplay does not deploy on mobile but it does on desktop. 
 
+#### Fix
+- On the About modal, the links did not work initially, after researching this issue I found a solution [here](https://stackoverflow.com/questions/39463784/href-link-inside-modal-is-not-working). It became evident that the Bootstrap modal-dialog had an attribute that disabled the links (pointer-events: none;). As in the post, I reset the CSS to .modal-dialog {pointer-events: all;} which fixed this issue. 
+   
 ## Deployment 
 
 This project was developed using [Visual Studio Code](https://code.visualstudio.com/), commits to git and pushes were done using the inbuilt function within Visual Studio Code.
