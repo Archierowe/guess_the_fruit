@@ -103,9 +103,5 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 - When all attempts have been exhausted, the game over modal appears.
 - flashing Game Over Play Again appears.
 
-## Bugs and fixes
-
-- On the About modal, the links did not work initially, after researching this issue I found a solution [here](https://stackoverflow.com/questions/39463784/href-link-inside-modal-is-not-working). It became evident that the Bootstrap modal-dialog had an attribute that disabled the links (pointer-events: none;). As in the post, I reset the CSS to .modal-dialog {pointer-events: all;} which fixed this issue. 
-
 
 

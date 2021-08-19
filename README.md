@@ -177,10 +177,10 @@ What would parents like in a game?
 
 ## Wireframes
 
-Wireframes were created for mobile, tablet and desktop using Balsamiq during the scope plane part of the design process for this project.
+Wireframes were created for mobile, tablet and desktop using [Balsamiq](https://balsamiq.com/wireframes/) during the scope plane design process.
 
-The final version of the wireframe can be found:
-* [here]
+The final version of the wireframes can be found here
+* [Guess the Fruit wireframes](https://github.com/Archierowe/guess_the_fruit/blob/main/assets/wireframe/guess_the_fruit.pdf)
 
 
 ## Features
@@ -283,16 +283,24 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
    - No major errors returned through [HTML validation](https://validator.w3.org/nu/#textarea) however, it threw an error for video width on the win game modal (Bad value 100% for attribute width on element video: Expected a digit but saw % instead). I attempted to adjust on recommendation, however when changing the 100% to 100, the video shrank and did not fill container. I have, therefore left it as is until a suitable fix is found. I have checked across devices and the video width appears to be correct with current code. 
    
 #### CSS
-   - 6 minor text area errors were returned pertaining to the multicolortext and mutlicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator#errors) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
+   - 6 minor text area errors were returned pertaining to the multicolortext and multicolortext-1 for the modals. The [CSS validator](https://jigsaw.w3.org/css-validator/validator#errors) did not like background-clip being identified as text. However, when seeking to correct, I could not find a solution to enabling the multicolor text to fire, so I have kept it the same until a fix could be identified. This shoud and could be an easy fix.
    
 #### JavaScript
-   - No errors were found when code was validated through [JSHint](https://jshint.com/). However, it threw up warnings but forthis project nothing that hinders JS from correctly executing. JSHint did not provide link to validated code.
+   - No errors were found when code was validated through [JSHint](https://jshint.com/). It threw up warnings but, for this project, nothing that hinders JS from correctly executing. JSHint did not provide link to any validated code.
+
+#### Known bugs and fixes
 
 #### Known bugs
-
 -   On some mobile devices and desktop sizes the layout of the screen requires a scroll to see the scorebox and new game button.
--   On some desktops, the site will not fill the screen,however, as already explained this site is intended primarily for use on mobile devices and tablets - the intention is for the game to be handheld. 
+-   On some desktops, the site will not fill the screen, however, as already explained this site is intended primarily for use on mobile devices and tablets - the intention is for the game to be handheld. 
+-   Some features are working/not working in some browsers:
+      * Chrome:   Music button (mute/play) will not play music on desktop but WILL on mobile (primary device). 
+                  Win game modal video autoplay does not deploy on mobile but it does on desktop.
+      * Firefox:  Win game modal video autoplay does not deploy on mobile but it does on desktop. 
 
+#### Fix
+- On the About modal, the links did not work initially, after researching this issue I found a solution [here](https://stackoverflow.com/questions/39463784/href-link-inside-modal-is-not-working). It became evident that the Bootstrap modal-dialog had an attribute that disabled the links (pointer-events: none;). As in the post, I reset the CSS to .modal-dialog {pointer-events: all;} which fixed this issue. 
+   
 ## Deployment 
 
 This project was developed using [Visual Studio Code](https://code.visualstudio.com/), commits to git and pushes were done using the inbuilt function within Visual Studio Code.
@@ -336,19 +344,22 @@ Should you require further info on how to do this in GitHub, then please click [
 * Audio file for Win game modal video sourced from YouTube free music library - track title: [Diskofunque by Francis Preve](https://www.youtube.com/watch?v=1gbjn_YYvas)
 
 ### Code
-* Various sections of my code were inspired by many many Stack Overflow posts which led me to try out various things in order to understand what I was trying to achieve. Some examples are [How to open a bootstrap modal using JQuery](https://stackoverflow.com/questions/13183630/how-to-open-a-bootstrap-modal-window-using-jquery) and [how to add an avent after modal is closed](https://stackoverflow.com/questions/14840870/how-to-add-an-event-after-close-the-modal-window/26934034) which allowed me to figure out some JQuery code I had no knowledge of before. This led me to figuring out how to add a mute button in JQuery and other neat features I would have perhaps given up on had I not ventured into the fun of JQuery! [Codepen.io](https://codepen.io/saeedsalam/pen/WNerqrY) Code from Saeed Salam - video mute/unmute button - modified by me for this project - many thanks! 
+* I did all I could to keep the code DRY - 'do not repeat' - became a challenge!
+* [Bootstrap](https://getbootstrap.com/) was used for general layout - some code modified for my needs. 
+* Various sections of my code were inspired by many many Stack Overflow posts I read, which led me to try out various things in order to understand what I was trying to achieve. Some examples of my google searches: ['How to open a bootstrap modal using JQuery'](https://stackoverflow.com/questions/13183630/how-to-open-a-bootstrap-modal-window-using-jquery) and ['How to add an avent after modal is closed'](https://stackoverflow.com/questions/14840870/how-to-add-an-event-after-close-the-modal-window/26934034) which allowed me to figure out some JQuery code I had no knowledge of before. This led me to figuring out how to add a mute button in JQuery and other neat features I would have perhaps given up on had I not ventured into the fun of JQuery! [Codepen.io](https://codepen.io/saeedsalam/pen/WNerqrY) Code from Saeed Salam - video mute/unmute button - modified by me for this project - many thanks! 
 * SetTimeout function code was inspired by [W3Schools](https://www.w3schools.com/js/js_timing.asp)
 * Parent function info was inspired by code from these posts [Stack Overflow](https://stackoverflow.com/questions/10960162/javascript-call-parent-function)
 * Code (which I modified in JQuery) for animation bounce on the main game panels was from [Animate CSS](https://animate.style/)
 * Modified some code for flashing/blinking text for the 'Game Over' modal [HTML Online](https://html-online.com/articles/blinking-text-css-animation/)
-* Code for the Highscore function came from studying this for a good while...[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#the_event_listener_callback)
+* The Highscore function was inspired by studies from this page [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#the_event_listener_callback)
 
 
 ## Acknowledgements
--   My biggest inspiration, my son Eben - this game is for you.
+-   My biggest inspiration, Eben - this game is for you.
+-   My wife, for continually supporting and encouraging me, thank you x
 -   Huge thanks go to Wayne and Lucie at Hey Bear Sensory for allowing me the use of their brand and images for the purpose of this project [Hey Bear Sensory](https://www.heybearsensory.com/)
 -   Many thanks to [Felipe Alarcon](https://github.com/felipe-alarcon) for his invaluable help, feedback and encouragement.
--   My wife, for continually supporting and encouraging me, thank you x
+
 
    
 -   All content included in this website is intended solely for educational purposes by the developer. 
