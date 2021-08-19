@@ -292,8 +292,10 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
 
 -   On some mobile devices and desktop sizes the layout of the screen requires a scroll to see the scorebox and new game button.
 -   On some desktops, the site will not fill the screen, however, as already explained this site is intended primarily for use on mobile devices and tablets - the intention is for the game to be handheld. 
--   Some features are working/not working in Chrome brower:
-      * Chrome: Music button (mute/play) will not play music on desktop but WILL on mobile (primary device). 
+-   Some features are working/not working in some browsers:
+      * Chrome:   Music button (mute/play) will not play music on desktop but WILL on mobile (primary device). 
+                  Win game modal video autoplay does not deploy on mobile but it does on desktop.
+      * Firefox:  Win game modal video autoplay does not deploy on mobile but it does on desktop. 
 
 ## Deployment 
 
