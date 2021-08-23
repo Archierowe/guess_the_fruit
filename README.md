@@ -232,8 +232,9 @@ The final version of the wireframes can be found here
       - This modal is designed to be simple, yet colourful, and flashing multicolour text suggests losing the game and trying again isn't all that bad!!
 
 <div align="center">
-<img src="https://i.ibb.co/BftmQCh/Game-over-modal.png" alt="Game_over_modal screenshot" border="0">
+   <img src="https://media.giphy.com/media/l5L5dHkOwPbo1zgIuu/giphy.gif?cid=790b7611645d4efdb3bfeab69a167226e5b58316800b9a22&rid=giphy.gif&ct=g" alt="game_over_flashing" border="0">
 </div>
+
 
 ### What I'd like to add in the future 'features'
 
