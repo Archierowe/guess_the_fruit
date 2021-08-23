@@ -160,12 +160,11 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 **Game win modal**
 
 - When player wins, the 'Game win' modal appears and interrupts the game with a rewarding video! Confirmed that it fires and looks great on tablets and also mobile devices.
+- New game button works and resets the guesses left. Does not interfere with Best score.
 <br>
 <div align="center">
 <img src="https://media.giphy.com/media/2lt4BitVLRtkj8UGC4/giphy.gif" alt="win_fruit_modal" border="0">
 </div>
-<br>
-- New game button works and resets the guesses left. Does not interfere with Best score.
 <br>
 
 **Game over modal**
