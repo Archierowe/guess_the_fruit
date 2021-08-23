@@ -166,6 +166,7 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 </div>
 <br>
 - New game button works and resets the guesses left. Does not interfere with Best score.
+<br>
 
 **Game over modal**
 
