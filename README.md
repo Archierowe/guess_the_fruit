@@ -221,7 +221,14 @@ The final version of the wireframes can be found here
 <img src="https://i.ibb.co/g3JpnLr/About-modal.png" alt="About_modal screenshot" border="0">
  </div>
       
-  3. **Game over modal**
+  3. **Game win modal**
+      - This modal contains a 'Win video' a nice celebratory dancing fruit video and music and music track.
+   
+<div align="center">
+<img src="https://media.giphy.com/media/2lt4BitVLRtkj8UGC4/giphy.gif" alt="win_fruit_modal" border="0">
+   </div>
+      
+  4. **Game over modal**
       - This modal is designed to be simple, yet colourful, and flashing multicolour text suggests losing the game and trying again isn't all that bad!!
 
 <div align="center">
