@@ -239,10 +239,10 @@ The final version of the wireframes can be found here
 ### What I'd like to add in the future 'features'
 
 This is a fluid concept and one that could be added to as the game or whatever brand it connects to grows. I would like to add:
+   * A carousel or a box where fruits are 'jumbled' up and then disappears as a game start feature. I believe this would make sense for the game start sequence. 
    * A user highscore feature than runs across all sessions and one in local storage. 
    * A play against other people feature - where someone could play against someone else.
-   * New game modes where either attempts is lowered for hard mode or even more fruits added.
-   * A carousel or a box where fruits are 'jumbled' up and then disappears as a game start feature. 
+   * New game modes where either attempts is lowered for hard mode or even more fruits added. 
    * Characters - dancing icons or unique characters to the game.  
       
 
@@ -301,13 +301,13 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
 #### Known bugs
 -   On some mobile devices and desktop sizes the layout of the screen requires a scroll to see the scorebox and new game button.
 -   On some desktops, the site will not fill the screen, however, as already explained this site is intended primarily for use on mobile devices and tablets - the intention is for the game to be handheld. 
--   Some features are working/not working in some browsers:
+-   Some features are working/not working in some browsers, some of the time:
       * Chrome:   Music button (mute/play) will not play music on desktop but WILL on mobile (primary device). 
                   Win game modal video autoplay does not deploy on mobile but it does on desktop.
       * Firefox:  Win game modal video autoplay does not deploy on mobile but it does on desktop. 
 
 - Other browser issues:
-   * Typically, people will use different browsers and will also have multiple extensions installed. There have been issues with CSS linear gradient usage on the project - when user visits the page for the first time or refreshes the page on mobile the 'multicolor text' does not execute completely **on mobile**. This is the case for Chrome, Safari and Firefox. When checking [Can I Use](https://caniuse.com/?search=linear-gradient) and a search for CSS gradients does, in fact, alert to the fact that some browsers only offer partial support for linear gradients (updated and most recent versions of Chrome and Firefox do support but Safari, with version 14.1 partially supports linear gradients. I have no solution to this at this time, but I am sure that a revisit to the project in the near future will come with a fix. Examples of Chrome, Safari and Firefox:
+   * Typically, people will use different browsers and will also have multiple extensions installed. There have been issues with CSS linear gradient usage on the project - when user visits the page for the first time or refreshes the page on mobile the 'multicolor text' does not always execute **on mobile** (see below for more details in the images provided). This is the case for Chrome, Safari and Firefox. When checking [Can I Use](https://caniuse.com/?search=linear-gradient), a search for CSS gradients does, in fact, alert to the fact that some browsers only offer partial support for linear gradients (updated and most recent versions of Chrome and Firefox do support but Safari, with version 14.1 partially supports linear gradients. I have no solution to this at this time, but I am sure that a revisit to the project in the near future will come with a fix. Examples of Chrome, Safari and Firefox:
    
 **Chrome - mobile** 
       - As you can see the user will see 'Welcome to' - it should output, 'Welcome to Guess the Fruit' (it does on tablet and desktop)
