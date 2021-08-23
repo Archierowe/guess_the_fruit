@@ -307,23 +307,23 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
       * Firefox:  Win game modal video autoplay does not deploy on mobile but it does on desktop. 
 
 - Other browser issues:
-   * Typically, people will use different browsers and will also have multiple extensions installed. There have been issues with CSS linear gradient usage on the project - when user visits the page for the first time or refreshes the page on mobile the 'multicolor text' does not execute completely. This is the case for Chrome, Safari and Firefox. When checking [Can I Use](https://caniuse.com/?search=linear-gradient) and a search for CSS gradients does, in fact, alert to the fact that some browsers only offer partial support for linear gradients (updated and most recent versions of Chrome and Firefox do support but Safari, with version 14.1 partially supports linear gradients. I have no solution to this at this time, but I am sure that a revisit to the project in the near future will come with a fix. Examples of Chrome, Safari and Firefox:
+   * Typically, people will use different browsers and will also have multiple extensions installed. There have been issues with CSS linear gradient usage on the project - when user visits the page for the first time or refreshes the page on mobile the 'multicolor text' does not execute completely **on mobile**. This is the case for Chrome, Safari and Firefox. When checking [Can I Use](https://caniuse.com/?search=linear-gradient) and a search for CSS gradients does, in fact, alert to the fact that some browsers only offer partial support for linear gradients (updated and most recent versions of Chrome and Firefox do support but Safari, with version 14.1 partially supports linear gradients. I have no solution to this at this time, but I am sure that a revisit to the project in the near future will come with a fix. Examples of Chrome, Safari and Firefox:
    
-**Chrome** 
-      - As you can see the user will see 'Welcome to' - it should output, 'Welcome to Guess the Fruit' (as can be seen on IDE and live server)
+**Chrome - mobile** 
+      - As you can see the user will see 'Welcome to' - it should output, 'Welcome to Guess the Fruit' (it does on tablet and desktop)
       
 <div align="center">
 <img src="https://i.ibb.co/YPGd5vV/Image-123986672.jpg" alt="Image_123986672" border="0">
 </div>
       
-**Safari** 
+**Safari - mobile** 
       - Again the full text is missing from the Safari browser.
       
 <div align="center">
 <img src="https://i.ibb.co/55tQnJm/Image-123986672-1.jpg" alt="Image_123986672 (1)" border="0">
  </div>
       
-**Firefox**
+**Firefox - mobile**
       - Lastly, the same thing again with Firefox, the full 'Welcome to Guess the Fruit' is missing. 
 
 <div align="center">
