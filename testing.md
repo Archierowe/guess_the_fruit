@@ -72,7 +72,7 @@ Working through the user stories section of the [README.md](README.md)
 
 4. **Is it a loud game? What parental controls are there?**
 
-- Parents can reset the game at anytime via refrwshing the page and also a new game button.
+- Parents can reset the game at anytime via refreshing the page and also a new game button.
 - Parents are able to mute the game and control the volume via the main volume output controls for whatever device they are using.
 
 ## Manual testing
@@ -92,13 +92,42 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 
 - Confirmed that on mobiles and tablets, the main game screen fits very nicely and is vibrant and colourful. All elements are in place - the game buttons (fruits) display very nicely and fit well, media queries working nicely to shrink where necessary.
 
+**Mobile**
+- The main screen as viewed by the user/player:
+<br>
+<div align="center">
+      <img src="https://i.ibb.co/yBWYKBY/Main-screen.png" alt="Main_screen" border="0">
+   </div>
+
+**Tablet**
+- Seen here on the 'game start' modal:
+<br>
+<div align="center">
+   <img src="https://i.ibb.co/3R1nqVf/Screenshot-2021-08-23-at-09-23-20.png" alt="Screenshot 2021-08-23 at 09.23.20" border="0">
+   </div>
+
 **Header elements**
 
 - On mobile, the header elements (about button, results window and the mute button) push nicely to the left - with the mute and about buttons reordering to acomodate for right handed users (most common) - to discourage the mute button being pressed.
+<br>
+<div align="center">
+<img src="https://i.ibb.co/yBWYKBY/Main-screen.png" alt="Main_screen" border="0">
+</div>
+ <br>
 - On tablet the header elements display nicely and in original order of: about button, results window and mute button.
+<br>
+<div align="center">
+<img src="https://i.ibb.co/jhp1Lmg/Tablet-main-screen.png" alt="Tablet main screen" border="0"> 
+</div>
+
 - Mute button/unmute button works nicely and provides the game with a 'theme tune'.
 - the result window presents the user with basic information - 'select a fruit' - displays nicely on both tablets and mobile devices.
-- About button - launches 'about modal'. Working as expected:
+- About button - launches 'about modal'. Working as expected.
+<br>
+<div align="center">
+<img src="https://i.ibb.co/g3JpnLr/About-modal.png" alt="About_modal screenshot" border="0">
+ </div>
+ <br>
 - About modal on tablets: Confirmed responsiveness, extra text on tablets with parent instructions (more likely that parents will be sitting with a child on tablet so more info provided for parents, with some additional instructions).
 - About modal on mobile: Responsiveness also confirmed. Extra text provided to parents removed on mobile to allow for the about modal to display and not shrink too much or require extra small font.
 
@@ -114,9 +143,20 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 
 - When the player or parent clicks About button a modal appears with general information about the game and Hey Bear Sensory - links to external sites [Hey Bear Sensory](https://www.heybearsensory.com/about) and also [Hey Bear Sensory YouTube channel](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg).
 
+<br>
+<div align="center">
+<img src="https://i.ibb.co/g3JpnLr/About-modal.png" alt="About_modal screenshot" border="0">
+ </div>
+<br>
+
 **Game win modal**
 
 - When player wins, the 'Game win' modal appears and interrupts the game with a rewarding video! Confirmed that it fires and looks great on tablets and also mobile devices.
+<br>
+<div align="center">
+<img src="https://media.giphy.com/media/2lt4BitVLRtkj8UGC4/giphy.gif" alt="win_fruit_modal" border="0">
+</div>
+<br>
 - New game button works and resets the guesses left. Does not interfere with Best score.
 
 **Game over modal**
