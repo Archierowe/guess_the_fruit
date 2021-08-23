@@ -172,5 +172,10 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 - When all attempts have been exhausted, the game over modal appears.
 - flashing Game Over Play Again appears.
 
+<br>
+<div align="center">
+   <img src="https://media.giphy.com/media/l5L5dHkOwPbo1zgIuu/giphy.gif?cid=790b7611645d4efdb3bfeab69a167226e5b58316800b9a22&rid=giphy.gif&ct=g" alt="game_over_flashing" border="0">
+</div>
+
 
 
