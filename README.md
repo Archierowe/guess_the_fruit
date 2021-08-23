@@ -10,7 +10,7 @@ This [game](https://archierowe.github.io/guess_the_fruit/) is for my son, Eben. 
 
 [Hey Bear Sensory](https://www.heybearsensory.com/) say... "we invite you to explore our colourful world of animation! Super cute and friendly characters promote happiness, movement, learning, visual tracking, sleep, relaxation and more!" The very nature of this type of medium; music, colourful images and movement, promotes so much of what is needed for young children and their spatial development. It seemed obvious to me to make something that could harness this and put it into the childs hands. So I reached out to Hey Bear Sensory and they were happy for me to design and build a game that incorporated their winning formula and brand into a game. Hey Bear Sensory has millions of views on their YouTube channel - check them out! [Hey Bear Sensory - YouTube](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg). 
 
-I am a teacher and having worked with children for years (and having my own child), I can vouch that when sensory experiences are linked to learning, they can be powerful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically. This game is about having fun, making links between pressing buttons, making choices and also gives the opportunity to learn about healthy foods! This is all brought together in one place and this is the first time that Hey Bear Sensory can be in the hands of the child (and parents), not just, 'on the telly'.
+I am a teacher and having worked with children for years, I can vouch that when sensory experiences are linked to learning, they can be powerful gateways to a child's development and confidence. This game provides the opportunity for parents to engage with their little ones dynamically. This game is about having fun, making links between pressing buttons, making choices and also gives the opportunity to learn about healthy foods! This is all brought together in one place and this is the first time that Hey Bear Sensory can be in the hands of the child (and parents), not just, 'on the telly'.
 
 I believe that this game provides a unique sensory experience, linking Hey Bear's fun with learning can aid with visual tracking, memory and concentration, even word association (should parents sit and explain each fruit by name for example - parents...get creative with this game and get involved!). 
    
@@ -69,7 +69,6 @@ There is something for parents as well as the child, you can turn the music on t
 ## Goals of this project
 
 The goal of this project is to provide a mobile and tablet game that is fun, visually striking and child friendly. It should be easy to understand and lot's of fun for all who play.  The target audience is children between 18 months to...whenever they might feel too old for it (never) and also, parents.
-
 
 #### Player goals:
 * A game that is fun to play.
