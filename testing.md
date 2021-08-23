@@ -119,7 +119,7 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 <div align="center">
 <img src="https://i.ibb.co/jhp1Lmg/Tablet-main-screen.png" alt="Tablet main screen" border="0"> 
 </div>
-
+ <br>
 - Mute button/unmute button works nicely and provides the game with a 'theme tune'.
 - the result window presents the user with basic information - 'select a fruit' - displays nicely on both tablets and mobile devices.
 - About button - launches 'about modal'. Working as expected.
