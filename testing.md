@@ -14,14 +14,31 @@ Working through the user stories section of the [README.md](README.md)
 
 - The game is vibrant, and colourful. The start game modal appears upon a new game session with simple instructions. However, the game is designed to be simple and intuitive.
 
+<div align="center">
+<img src="https://i.ibb.co/DLDh0zZ/Welcome-modal.png" alt="Welcome_modal screenshot" border="0">
+</div>
+
 2. **I want/need/require child friendly controls. I need the game controls/buttons to be obvious and 'clickable' - large and colourful buttons to attract my attention.**
 
 - The game controls are obvious and appear in the form of very vibrant and colourful images of fruit - the main 'hero' images.
 
+<div align="center">
+   <img src="https://i.ibb.co/ckSYkTT/Fruit-images.png" alt="Fruit_images" border="0">
+   </div>
+
 3. **I would like fun sounds and images/visuals.**
 
 - The game has background music that is turn on and off'able'. The control for this is a mute sound button which is intuitive and instantly recognisable as sound on and off icon(s).
+<br>
+<div align="center">
+      <img src="https://i.ibb.co/yBWYKBY/Main-screen.png" alt="Main_screen" border="0">
+   </div>
+<br>
 - The visuals are in the form of colourful fruit which bounce in when a new game starts (when the page is refreshed or the main new game button is pressed/clicked).
+<br>
+<div align="center">
+   <img src="https://media.giphy.com/media/BKeqeH3BNLc06SzgXE/giphy.gif" alt="Fruit_images" border="0">
+   </div>
 
 4. **I need to be able to recognise the elements within the game.**
 
@@ -29,7 +46,9 @@ Working through the user stories section of the [README.md](README.md)
 
 5. **I would love visual and audible rewards when I play/win!**
 
-- - When a game is 'won' and the hidden fruit is found a win game modal appears giving the player stimulus in the form of a music video to celebrate their win.
+- When a game is 'won' and the hidden fruit is found a win game modal appears giving the player stimulus in the form of a music video to celebrate their win.
+<br>
+
 
 **Parent goals**
 
