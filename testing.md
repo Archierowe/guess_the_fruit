@@ -48,7 +48,9 @@ Working through the user stories section of the [README.md](README.md)
 
 - When a game is 'won' and the hidden fruit is found a win game modal appears giving the player stimulus in the form of a music video to celebrate their win.
 <br>
-
+<div align="center">
+<img src="https://media.giphy.com/media/2lt4BitVLRtkj8UGC4/giphy.gif" alt="win_fruit_modal" border="0">
+   </div>
 
 **Parent goals**
 
