@@ -299,7 +299,7 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
       * Firefox:  Win game modal video autoplay does not deploy on mobile but it does on desktop. 
 
 - Other browser issues:
-   * Typically, people will use different browsers and will also have multiple extensions installed. There have been issues with CSS linear gradient usage on the project - when user visits the page for the first time or refreshes the page on mobile the 'multicolor text' does not execute completely. This is the case for Chrome, Safari and Firefox. When checking caniuse.com and a search for CSS gradients does, in fact, alert to the fact that some browsers only offer partial support for linear gradients (updated and most recent versions of Chrome and Firefox do support but Safari, with version 14.1 partially supports linear gradients. Examples of Chrome, Safari and Firefox:
+   * Typically, people will use different browsers and will also have multiple extensions installed. There have been issues with CSS linear gradient usage on the project - when user visits the page for the first time or refreshes the page on mobile the 'multicolor text' does not execute completely. This is the case for Chrome, Safari and Firefox. When checking caniuse.com and a search for CSS gradients does, in fact, alert to the fact that some browsers only offer partial support for linear gradients (updated and most recent versions of Chrome and Firefox do support but Safari, with version 14.1 partially supports linear gradients. I have no solution to this at this time, but I am sure that a revisit to the project in the near future will come with a fix. Examples of Chrome, Safari and Firefox:
    
 **Chrome** 
       - As you can see the user will see 'Welcome to' - it should output, 'Welcome to Guess the Fruit' (as can be seen on IDE and live server)
@@ -322,7 +322,7 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
 <img src="https://i.ibb.co/thFCTXr/Image-123986672-2.jpg" alt="Image_123986672 (2)" border="0">
   </div>
    
-#### Fix
+#### Fixes for broken links in About Modal
 - On the About modal, the links did not work initially, after researching this issue I found a solution [here](https://stackoverflow.com/questions/39463784/href-link-inside-modal-is-not-working). It became evident that the Bootstrap modal-dialog had an attribute that disabled the links (pointer-events: none;). As in the post, I reset the CSS to .modal-dialog {pointer-events: all;} which fixed this issue. 
    
 ## Deployment 
