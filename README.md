@@ -296,7 +296,7 @@ Please see the separate [testing.md](testing.md) file for User Stories testing.
 #### JavaScript
    - No errors were found when code was validated through [JSHint](https://jshint.com/). It threw up warnings but, for this project, nothing that hinders JS from correctly executing. JSHint did not provide link to any validated code.
 
-#### Known bugs and fixes
+### Known bugs and fixes
 
 #### Known bugs
 -   On some mobile devices and desktop sizes the layout of the screen requires a scroll to see the scorebox and new game button.
