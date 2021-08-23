@@ -109,25 +109,33 @@ The steps were undertaken on Iphone X and Ipad devices as well as the Chrome Dev
 **Header elements**
 
 - On mobile, the header elements (about button, results window and the mute button) push nicely to the left - with the mute and about buttons reordering to acomodate for right handed users (most common) - to discourage the mute button being pressed.
+
 <br>
 <div align="center">
 <img src="https://i.ibb.co/yBWYKBY/Main-screen.png" alt="Main_screen" border="0">
 </div>
  <br>
+ 
 - On tablet the header elements display nicely and in original order of: about button, results window and mute button.
+
 <br>
 <div align="center">
 <img src="https://i.ibb.co/jhp1Lmg/Tablet-main-screen.png" alt="Tablet main screen" border="0"> 
 </div>
  <br>
+ 
 - Mute button/unmute button works nicely and provides the game with a 'theme tune'.
+
 - the result window presents the user with basic information - 'select a fruit' - displays nicely on both tablets and mobile devices.
+
 - About button - launches 'about modal'. Working as expected.
+
 <br>
 <div align="center">
 <img src="https://i.ibb.co/g3JpnLr/About-modal.png" alt="About_modal screenshot" border="0">
  </div>
  <br>
+ 
 - About modal on tablets: Confirmed responsiveness, extra text on tablets with parent instructions (more likely that parents will be sitting with a child on tablet so more info provided for parents, with some additional instructions).
 - About modal on mobile: Responsiveness also confirmed. Extra text provided to parents removed on mobile to allow for the about modal to display and not shrink too much or require extra small font.
 
